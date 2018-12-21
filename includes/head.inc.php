@@ -12,7 +12,7 @@ require('core/init.php')
         <meta name="keywords" content="">
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="shortcut icon" href="https://demo1.smart-school.in/./uploads/school_content/logo/front_fav_icon-5b4e173550a5f1.17741045.png" type="image/x-icon">
+      
 
         <link href="assets/css/font-awesome.min.css" rel="stylesheet">
         <link href="assets/css/style.css" rel="stylesheet">  

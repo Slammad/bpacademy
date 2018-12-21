@@ -65,6 +65,7 @@
                                 <li class="sidebar-item"><a href="dashboard.php?editsite=editsite.php" class="sidebar-link"><i class="mdi mdi-note-outline"></i><span class="hide-menu"> Home Settings</span></a></li>
                                 <li class="sidebar-item"><a href="dashboard.php?contents=contents.php" class="sidebar-link"><i class="mdi mdi-note-plus"></i><span class="hide-menu">Contents</span></a></li>
                                 <li class="sidebar-item"><a href="dashboard.php?news=news.php" class="sidebar-link"><i class="mdi mdi-receipt"></i><span class="hide-menu">News</span></a></li>
+                                <li class="sidebar-item"><a href="dashboard.php?fees=fees.php" class="sidebar-link"><i class="mdi mdi-chart-bubble"></i><span class="hide-menu">Fees</span></a></li>
                                 <li class="sidebar-item"><a href="asd" class="sidebar-link"><i class="mdi mdi-chart-bubble"></i><span class="hide-menu">Events</span></a></li>
                             </ul>
                         </li>
@@ -103,6 +104,7 @@
                         include 'calls/contents.php';
                         include 'calls/banner.php';
                         include 'calls/gallery.php';
+                        include 'calls/fees.php';
                         
                     
                 ?>
