@@ -51,39 +51,7 @@ include 'partials/top.inc.php';
                 <!--./container-->
             </section>
 
-            <div class="col-md-4 col-sm-4">
-                <div class="contact-item">
-                    <h3>Our Location</h3>
-
-                    <p>350 Fifth Avenue, 34th floor New York NY 10118-3299 USA</p>
-                </div>
-                <!--./contact-item-->
-            </div>
-            <!--./col-md-4-->
-
-            <div class="col-md-4 col-sm-4">
-                <div class="contact-item">
-                    <h3>CALL US</h3>
-
-                    <p>E-mail : info@abcschool.com</p>
-
-                    <p>Mobile : +91-9009987654</p>
-                </div>
-                <!--./contact-item-->
-            </div>
-            <!--./col-md-4-->
-
-            <div class="col-md-4 col-sm-4">
-                <div class="contact-item">
-                    <h3>Working Hours</h3>
-
-                    <p>Mon-Fri : 9 am to 5 pm</p>
-
-                    <p>Sat : 9 am to 3 pm</p>
-                </div>
-                <!--./contact-item-->
-            </div>
-            <!--./col-md-4-->
+          
 
             </div>
 
