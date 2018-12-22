@@ -77,11 +77,12 @@ if(isset($_POST['add'])){
         $sourceProperties = getimagesize($file_name);
         $resizeFileName = "thump_".time();
         $uploadPath =BASEURL.'/bpacademy/uploads/gallery/';
-        $fileExt = pathinfo($_FILES['photo']['name']);
+        @$fileExt=explode('.',$_FILES['photo']['name']) ;
+        $fileExt=end($fileExt);
         $uploadImageType =$sourceProperties[2];
         $sourceImageWidth = $sourceProperties[0];
         $sourceImageHeight = $sourceProperties[1];
-        $uploadName=$resizeFileName. ".".$fileExt;
+        $uploadName=$resizeFileName.".".$fileExt;
         $dbpath='/uploads/gallery/'.$uploadName;
         
             switch($uploadImageType){
@@ -110,9 +111,11 @@ if(isset($_POST['add'])){
 
           
     
-                if(move_uploaded_file($file,$uploadPath. $resizeFileName.".".$fileExt)){
-                    echo "<script>console.log('moved successfully')</script>";
-                };
+      
+                move_uploaded_file($file,$uploadPath. $resizeFileName.".".$fileExt);
+                  
+                $insert = "INSERT INTO `gallery`(`id`, `title`, `image_desc`, `image_path`) VALUES (NULL,'$imagetitle','$imagedesc','$dbpath')";
+                $runinsert = $conn->query($insert);
                 echo "<script>console.log('$dbpath')</script>";
                    
                 
