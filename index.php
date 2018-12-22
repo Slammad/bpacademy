@@ -57,7 +57,7 @@
                                 <?php 
                                     while($news = mysqli_fetch_assoc($runnews)){ 
                                     ?>
-                                <li><a href="http://www.beginnersprideacademy.com/read/new-uniform">
+                                <li><a href="">
                                         <div class="date">01<span>August</span></div>
                                         <?= strtoUpper($news['title'])?>
                                     </a>
@@ -91,7 +91,7 @@
     
     ?>
         <div>
-            <img data-u="image" src="<?="http://localhost/bpacademy".$gallery['image_path']?>" />
+            <img data-u="image" src="<?=$gallery['image_path']?>" />
         </div>
         <?php } ?>
     </div>
