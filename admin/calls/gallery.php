@@ -76,7 +76,7 @@ if(isset($_POST['add'])){
         $file_name = $_FILES['photo']['tmp_name'];
         $sourceProperties = getimagesize($file_name);
         $resizeFileName = "thump_".time();
-        $uploadPath =BASEURL.'/bpacademy/uploads/gallery/';
+        $uploadPath =BASEURL.'/uploads/gallery/';
         @$fileExt=explode('.',$_FILES['photo']['name']) ;
         $fileExt=end($fileExt);
         $uploadImageType =$sourceProperties[2];
