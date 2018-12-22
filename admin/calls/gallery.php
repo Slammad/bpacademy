@@ -112,7 +112,7 @@ if(isset($_POST['add'])){
           
     
       
-                move_uploaded_file($file,$uploadPath. $resizeFileName.".".$fileExt);
+                move_uploaded_file($file,$uploadPath.$resizeFileName.".".$fileExt);
                   
                 $insert = "INSERT INTO `gallery`(`id`, `title`, `image_desc`, `image_path`) VALUES (NULL,'$imagetitle','$imagedesc','$dbpath')";
                 $runinsert = $conn->query($insert);
