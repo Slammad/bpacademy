@@ -57,48 +57,73 @@ $gallery = $conn->query($fetchgallery);
 <?php 
 }
 
+function resizeImage($resourceType,$image_width,$image_height){
+    $resizeWidth = 250; 
+    $resizeHeight = 200;
+    $imageLayer = imagecreatetruecolor($resizeWidth,$resizeHeight);
+    imagecopyresampled($imageLayer,$resourceType,0,0,0,0,$resizeWidth,$resizeHeight,$image_width,$image_height);
+    return $imageLayer;
+}
+
+
+
 if(isset($_POST['add'])){
     $imagetitle= $_POST['title'];
     $imagedesc= $_POST['desc'];
 
     if(isset($_FILES['photo'])){
-      
-        $file_name = $_FILES['photo']['name'];
-        $file_size =$_FILES['photo']['size'];
-        $file_tmp =$_FILES['photo']['tmp_name'];
-        $file_type=$_FILES['photo']['type'];
-        $file_ext=explode('.',$_FILES['photo']['name']) ;
-        $file_ext=end($file_ext);
-        $file_ext=strtolower(end(explode('.',$_FILES['photo']['name']))); 
-        $uploadName = md5(microtime()).'.'.$file_ext;
-        $uploadPath=BASEURL.'/bpacademy/uploads/gallery/'.$uploadName;
+        $imageProcess = 0;
+        $file_name = $_FILES['photo']['tmp_name'];
+        $sourceProperties = getimagesize($file_name);
+        $resizeFileName = "thump_".time();
+        $uploadPath =BASEURL.'/bpacademy/uploads/gallery/';
+        $fileExt = pathinfo($_FILES['photo']['name']);
+        $uploadImageType =$sourceProperties[2];
+        $sourceImageWidth = $sourceProperties[0];
+        $sourceImageHeight = $sourceProperties[1];
+        $uploadName=$resizeFileName. ".".$fileExt;
         $dbpath='/uploads/gallery/'.$uploadName;
         
-        $check = "SELECT * FROM `gallery` WHERE `title`='$imagetitle' AND `image_desc`='$imagedesc'";
-        $runcheck = $conn->$check;
-        $row_cnt =$runcheck->num_rows;
+            switch($uploadImageType){
+                case IMAGETYPE_JPEG:
+                    $resourceType = imagecreatefromjpeg($file_name);
+                    $imageLayer = resizeImage($resourceType,$sourceImageWidth,$sourceImageHeight);
+                    imagejpeg($imageLayer,$uploadPath.$resizeFileName.'.'.$fileExt);
+                    break;
+                
+                case IMAGETYPE_GIF:
+                    $resourceType = imagecreatefromjpeg($file_name);
+                    $imageLayer = resizeImage($resourceType,$sourceImageWidth,$sourceImageHeight);
+                    imagegif($imageLayer,$uploadPath.$resizeFileName.'.'.$fileExt);
+                    break;
+                
+                case IMAGETYPE_PNG:
+                    $resourceType = imagecreatefromjpeg($file_name);
+                    $imageLayer = resizeImage($resourceType,$sourceImageWidth,$sourceImageHeight);
+                    imagepng($imageLayer,$uploadPath.$resizeFileName.'.'.$fileExt);
+                    break;
+                
+                default:
+                    $imageProcess = 0;
+                    break;
+            };
 
-        if($row_cnt > 0){
-            echo "<script>console.log('Data Exists')</script>";
-        }else{
-
-            if(move_uploaded_file($file_tmp,$uploadPath)){
-                echo "<script>console.log('Uploaded Picture')</script>";
-                $insert = "INSERT INTO `gallery`(`id`, `title`, `image_desc`, `image_path`) VALUES (NULL,'$imagetitle','$imagedesc','$dbpath')";
+          
     
-                $insertdb = $conn->query($insert);
-                 if($insertdb){
-                    
-                     echo "<script>window.location.href = window.location.href;</script>";
-
-                 }
-            }
+                if(move_uploaded_file($file,$uploadPath. $resizeFileName.".".$fileExt)){
+                    echo "<script>console.log('moved successfully')</script>";
+                };
+                echo "<script>console.log('$dbpath')</script>";
+                   
+                
+             
 
         }
+     
+
       
       
-      
-    }
+    
         
 }
 
