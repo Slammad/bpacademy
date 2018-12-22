@@ -91,7 +91,7 @@
     
     ?>
         <div>
-            <img data-u="image" src="<?=$gallery['image_path']?>" />
+            <img data-u="image" src="http://www.beginnersprideacademy.com<?=$gallery['image_path']?>" />
         </div>
         <?php } ?>
     </div>
