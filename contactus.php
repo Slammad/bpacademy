@@ -1,7 +1,24 @@
 <?php
-include 'includes/head.inc.php';
-include 'partials/top.inc.php';
+    include 'includes/head.inc.php';
+    $settingsq = "SELECT * FROM `settings` WHERE `id`=1";
+    $runsettings = $conn->query($settingsq);
+    $settings = mysqli_fetch_assoc($runsettings);
+
+
+
+    $newsq = "SELECT * FROM `news`";
+    $runnews = $conn->query($newsq);
+
+
+    $contentsq = "SELECT * FROM `contents` WHERE `id`='1'";
+    $runcontent = $conn->query($contentsq);
+    $content = mysqli_fetch_assoc($runcontent);
+    
 ?>
+
+
+<?php include 'partials/top.inc.php' ?>
+
 
 
 <div class="container spacet50 spaceb50">
@@ -15,7 +32,7 @@ include 'partials/top.inc.php';
                         <p>&nbsp;</p>
 
                         <div class="col-md-12 col-sm-12">
-                            <form action="https://demo1.smart-school.in/page/contact-us" id="open" class="form-horizontal col-sm-12"
+                            <form action="" id="open" class="form-horizontal col-sm-12"
                                 autocomplete="on" enctype="multipart/form-data" method="post" accept-charset="utf-8">
                                 <input type='hidden' value='contact_us' name='form_name' /> <input type="hidden" name="email_title"
                                     value="New Inquiry from Contact US" />
@@ -58,7 +75,7 @@ include 'partials/top.inc.php';
     </div>
     <!--./row-->
 </div>
-
 <?php
+    include 'partials/script.php';
     include 'includes/footer.inc.php';
 ?>
