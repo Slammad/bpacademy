@@ -5,24 +5,37 @@
             <div class="col-md-4 col-sm-6">
                 <h3 class="fo-title">Links</h3>
                 <ul class="f1-list">
-                    <li class="">
-                        <a href="https://demo1.smart-school.in/page/home" >Home</a>
-                    </li>
-                    <li class="">
-                        <a href="https://demo1.smart-school.in/page/introduction" >About</a>
-                    </li>
-                    <li class="">                     
-                        <a href="https://demo1.smart-school.in/page/school-uniform" >Academics</a>
-                    </li>
-                    <li class="">                
-                        <a href="https://demo1.smart-school.in/page/events" >Events</a>
-                    </li>
-                    <li class="">                    
-                        <a href="https://demo1.smart-school.in/page/gallery" >Gallery</a>
-                    </li>
-                    <li class="">                    
-                        <a href="https://demo1.smart-school.in/page/contact-us" >Contact Us</a>
-                    </li>
+                <li class="active ">
+                            <a href="index.php">Home</a>
+                        </li>
+
+
+                        <li class="active">
+                            <a href="gallery.php">Gallery</a>
+                        </li>
+
+
+                        <li class="">
+                            <a href="admissions.php">Admissions</a>
+                        </li>
+
+                        <li class="">
+                            <a href="fees.php">Fees</a>
+                        </li>
+
+                      
+                        
+                        <li class="">
+                            <a href="events.php">Events</a>
+                        </li>
+
+                        <li class="">
+                            <a href="news.php">News</a>
+                        </li>
+
+                        <li class="">
+                            <a href="contactus.php">Contact Us</a>
+                        </li>
                 </ul>
             </div><!--./col-md-3-->
 

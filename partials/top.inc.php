@@ -68,16 +68,16 @@
                         <li class=" dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Academics <b class="caret"></b></a>
                             <ul class="dropdown-menu">
-                                <li><a href="https://demo1.smart-school.in/page/school-uniform">Fees</a></li>
+                                <li><a href="fees.php">Fees</a></li>
                             </ul>
                         </li>
                         
                         <li class="">
-                            <a href="http://www.beginnersprideacademy.compage/events">Events</a>
+                            <a href="events.php">Events</a>
                         </li>
 
                         <li class="">
-                            <a href="http://www.beginnersprideacademy.compage/news">News</a>
+                            <a href="news.php">News</a>
                         </li>
 
                         <li class="">

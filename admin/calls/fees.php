@@ -55,11 +55,11 @@ if(isset($_POST['additem'])){
     $itemname= $_POST['item'];
     $cost= $_POST['cost'];
     $remark= $_POST['remark'];
-    $check = "SELECT * FROM `fees` WHERE `remark`='$remark'";
-    $runcheck = $conn->query($check);
-    $num_rows = $runcheck->num_rows;
+    $check = "SELECT * FR(OM `fees` WHERE `remark`='$remark'";
+    $runcheck=$conn->query($check);
+    $row_cnt = $runcheck->num_rows;
 
-    if($num_rows == 0){
+    if($row_cnt = 0){
         echo "<script>console.log('item exists')</script>";
     }else{
         $query ="INSERT INTO `fees`(`id`, `item`, `cost`, `remark`) VALUES (NULL,'$itemname','$cost','$remark')";
@@ -67,6 +67,7 @@ if(isset($_POST['additem'])){
     
         if($insertitem){
             echo "<script>console.log('inserted)</script>";
+            echo "<script>window.location.href = window.location.href;</script>";
         }
         
     }
