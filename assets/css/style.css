@@ -19,7 +19,7 @@ h1, h2, h3, h4, h5, h6{font-family:"Montserrat", sans-serif}
 .relative{position: relative; margin-bottom: 10px;}
 .pt10{padding-top: 10px;}
 .pt20{padding-top: 20px;}
-.toparea{background: #FA0000;/* padding-top:5px; */padding-bottom: 8px;}
+.toparea{background: #B33000;/* padding-top:5px; */padding-bottom: 8px;}
 .loginbtn{border-radius: 6px;
     border: 1px solid #fff;
     padding: 6px 20px !important;
@@ -225,11 +225,11 @@ header{
     }
 
     
-/*.nav .open>a,.nav .open>a:focus,.nav .open>a:hover{background-color:#FA0000;border-color:#337ab7}*/
+/*.nav .open>a,.nav .open>a:focus,.nav .open>a:hover{background-color:#B33000;border-color:#337ab7}*/
   
  .navbar-nav > .open > a, .navbar-nav > .open > a:hover, .navbar-nav > .open > a:focus {
     color: #ffffff;
-    background-color: #FA0000;
+    background-color: #B33000;
 } 
 .mt10{margin-top: 10px;}
 .spacet50{padding-top: 50px;}
@@ -792,7 +792,7 @@ header{
 
 
 .catetab{
-    background: #FA0000;
+    background: #B33000;
     color: #fff;
     padding: 10px 20px;
     font-size: 18px;
@@ -812,7 +812,7 @@ header{
    
 /* border-radius: 4px; */
    
-background: #FA0000;
+background: #B33000;
    
 /* position: relative; */
    
@@ -884,7 +884,7 @@ width: 100%;
 }
 .newscontent ul li a {text-decoration:none;color: #000;display: block;}
  .newscontent ul li a.date, 
-.newscontent ul li a:hover{color: #FA0000; text-decoration: none;}
+.newscontent ul li a:hover{color: #B33000; text-decoration: none;}
 
 .newspagebox{background: #fff;box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.30);min-height: 200px;
     border-radius: 4px;margin-top: 30px;padding: 28px;position: relative; overflow: hidden;}
@@ -986,7 +986,7 @@ textarea#message{resize: none;padding: 10px;border-radius:0;}
 .pink-btn:focus,
 .pink-btn:hover{ background: #2b2a29; color: #fff; text-decoration: none;}
 .pink-btn {
-    background: #FA0000;
+    background: #B33000;
    border-radius: 4px;
     text-align: center;
     border: 0; outline: 0;
@@ -1006,7 +1006,7 @@ textarea#message{resize: none;padding: 10px;border-radius:0;}
     padding-top: 15px;margin-top: 15px;
 }
 .eventbox a{color: #000; cursor: pointer; display: block;border-radius: 4px;}
-.eventbox a:hover{color: #FA0000; cursor: pointer; text-decoration: none;}
+.eventbox a:hover{color: #B33000; cursor: pointer; text-decoration: none;}
 
 .eventbox img {
     width: 100%;
@@ -1014,7 +1014,7 @@ textarea#message{resize: none;padding: 10px;border-radius:0;}
     border-radius: 4px 4px 0 0px;
 }
 .time{}
-.eventbox h3{font-size: 20px;margin-bottom:0px;color: #FA0000;font-weight: bold;}
+.eventbox h3{font-size: 20px;margin-bottom:0px;color: #B33000;font-weight: bold;}
 
 .gallerylist{position: relative; display: block;box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.31);
     padding: 10px; border-radius: 4px;}   
@@ -1210,7 +1210,7 @@ a.copy:hover{color: #d56e00;text-decoration:underline;}
 .latest{margin: 0; padding: 0;}
 .latest li{list-style: none;display: block;border-bottom: solid 1px #d1d1d1;color: #fff;padding: 0 0 0 60px;position: relative;padding-bottom: 10px;margin-bottom: 15px;}
 .latest li img{position: absolute;top: 4px;left: 0px;width: 60px;}
-.latest li i{position: absolute;top: 0px;left: 0px;background-color: #FA0000;font-size: 24px;
+.latest li i{position: absolute;top: 0px;left: 0px;background-color: #B33000;font-size: 24px;
     text-align: center;border-radius: 4px;padding: 12px;}
 .latest li:last-child{border-bottom:0;}
 .fbolist{margin:0;padding:0;}

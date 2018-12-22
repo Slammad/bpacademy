@@ -18,14 +18,14 @@
     <div class="container">
         <div class="row">
                 <div class="col-md-3 col-sm-3">
-                    <a class="" href="http://www.beginnersprideacademy.com"><img src="assets/images/logo.png" style="height:80px;" alt=""></a>
+                    <a class="" href="http://www.beginnersprideacademy.com"><img src="assets/images/logo.jpg" style="height:80px;" alt=""></a>
                 </div><!--./col-md-4-->
             <div class="col-md-9 col-sm-12">
                 <ul class="header-extras">
                 <li><i class="fas fa-envelope i-plain"></i><div class="he-text">Email Us<span><a href="mailto:<?=$settings['school_mail']?>"><?=$settings['school_mail']?></a></span></div></li>
                     <li><i class="fa fa-phone i-plain"></i><div class="he-text">Call Us<span><?=$settings['school_phone']?>,<?=$settings['tell2']?></span></div></li>
                     <li><i class="fa fa-pencil-square-o i-plain"></i>
-                        <div class="he-text">Feedback<span><a href="http://www.beginnersprideacademy.com/page/complain">Complain</a></span>
+                        <div class="he-text">Feedback<span><a href="">Complain</a></span>
                         </div>
                     </li>
                 </ul>

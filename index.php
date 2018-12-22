@@ -179,23 +179,10 @@
                     <div class="tickercontainer">
                         <div class="mask">
                             <ul id="ticker01" class="newsticker" style="height: 666px; top: 124.54px;">
-                                <li><a href="https://demo1.smart-school.in/read/new-uniform">
+                                <li><a href="">
                                         <div class="date">01<span>August</span></div>new uniform
                                     </a></li>
-                                <li><a href="https://demo1.smart-school.in/read/notice-for-parents">
-                                        <div class="date">18<span>July</span></div>Notice for Parents
-                                    </a></li>
-                                <li><a href="https://demo1.smart-school.in/read/term-exam-is-scheduled-from-14-september-2018">
-                                        <div class="date">09<span>July</span></div>Term Exam is Scheduled from 14
-                                        September 2018
-                                    </a></li>
-                                <li><a href="https://demo1.smart-school.in/read/winter-sports-is-scheduled-in-october-2018">
-                                        <div class="date">05<span>July</span></div>Winter Sports is Scheduled in
-                                        October 2018
-                                    </a></li>
-                                <li><a href="https://demo1.smart-school.in/read/new-guidelines-for-session-2018">
-                                        <div class="date">02<span>July</span></div>New Guidelines for Session 2018
-                                    </a></li>
+                               
                             </ul>
                         </div>
                     </div>
