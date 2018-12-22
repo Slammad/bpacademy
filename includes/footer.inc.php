@@ -52,7 +52,7 @@
                 <h3 class="fo-title">Contact</h3>
                 <ul class="co-list">
                     <li><i class="fa fa-envelope"></i>
-                        <a href="mailto:sudeepbhola@gmail.com"><?=$settings['school_mail']?></a></li>
+                        <a href="mailto:<?=$settings['school_mail']?>"><?=$settings['school_mail']?></a></li>
                     <li><i class="fa fa-phone"></i><?=$settings['school_phone']?>,<?=$settings['tell2']?></li>
                     <li><i class="fa fa-map-marker"></i><?=$settings['school_address']?></li>
                 </ul>
