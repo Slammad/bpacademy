@@ -1,5 +1,6 @@
 <?php
     include '../core/init.php';
+    
 ?>
 <!DOCTYPE html>
 <html dir="ltr">
@@ -15,9 +16,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="../../assets/images/favicon.png">
     <title>BPAcademy Admin</title>
     <!-- Custom CSS -->
-    <link href="assets/dist/css/style.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="assets/assets/libs/quill/dist/quill.snow.css">
-   
+    
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
