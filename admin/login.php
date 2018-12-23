@@ -1,5 +1,8 @@
 <?php 
-
+session_start();
+if (isset($_SESSION['email'])){
+    echo "<script>window.location.href ='dashboard.php?dashboard=dashboard.php';</script>";
+}
 include 'partials/adminhead.inc.php';
 ?>
 
@@ -87,7 +90,14 @@ if(isset($_POST['login'])){
     $row_cnt=mysqli_num_rows($run);
     
    
-   
+    if($row_cnt > 0){
+        $_SESSION['email']=$email;
+         echo "<script>window.location.href ='dashboard.php?dashboard=dashboard.php';</script>";
+       
+         
+    }else{
+        echo "<script>console.log('user record not found')</script>";
+    }
 }
 
 include 'partials/bodyscript.php' ;
