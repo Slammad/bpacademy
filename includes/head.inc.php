@@ -28,7 +28,7 @@ require('core/init.php')
     right: 0;
     bottom: 0;
     text-align: left;
-    padding: 0px;
+    padding: 10px;
     background: rgba(0,0,0,.6);
     text-shadow: none;
 }
