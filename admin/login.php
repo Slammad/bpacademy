@@ -1,6 +1,6 @@
 <?php 
 
-
+include 'partials/adminhead.inc.php';
 ?>
 
 <div class="main-wrapper">
@@ -90,6 +90,6 @@ if(isset($_POST['login'])){
    
 }
 
-include 'partials/bodyscript.php' ;
+
 include 'partials/adminfooter.inc.php';
 ?>
