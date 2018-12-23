@@ -90,6 +90,6 @@ if(isset($_POST['login'])){
    
 }
 
-
+include 'partials/bodyscript.php' ;
 include 'partials/adminfooter.inc.php';
 ?>
