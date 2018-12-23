@@ -1,6 +1,6 @@
 <?php 
 
-include 'partials/adminhead.inc.php';
+
 ?>
 
 <div class="main-wrapper">
