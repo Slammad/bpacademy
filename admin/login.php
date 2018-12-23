@@ -86,14 +86,7 @@ if(isset($_POST['login'])){
     $run=$conn->query($query);
     $row_cnt=mysqli_num_rows($run);
     
-    if($row_cnt > 0){
-        $_SESSION['email']=$email;
-         echo "<script>window.location.href ='dashboard.php?dashboard=dashboard.php';</script>";
-       
-         
-    }else{
-        echo "<script>console.log('user record not found')</script>";
-    }
+   
    
 }
 
