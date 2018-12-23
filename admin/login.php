@@ -1,9 +1,10 @@
 <?php 
-include 'partials/adminhead.inc.php';
+
 session_start();
 if(isset($_SESSION['email'])){
     echo "<script>window.location.href ='dashboard.php?dashboard=dashboard.php';</script>";
 }
+include 'partials/adminhead.inc.php';
 ?>
 
 <div class="main-wrapper">
