@@ -27,7 +27,12 @@ include 'partials/adminhead.inc.php';
                                     </div>
                                     <input type="text" class="form-control form-control-lg" name="email" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1" required="">
                                 </div>
-                               
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text bg-warning text-white" id="basic-addon2"><i class="ti-pencil"></i></span>
+                                    </div>
+                                    <input type="password" class="form-control form-control-lg" name="password" placeholder="Password" aria-label="Password" aria-describedby="basic-addon1" required="">
+                                </div>
                             </div>
                         </div>
                         <div class="row border-top border-secondary">
