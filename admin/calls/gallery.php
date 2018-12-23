@@ -74,11 +74,11 @@ if(isset($_POST['add'])){
     if(isset($_FILES['photo'])){
         $imageProcess = 0;
         $file_name = $_FILES['photo']['tmp_name'];
+        $fileExt=end($fileExt);
         $sourceProperties = getimagesize($file_name);
         $resizeFileName = "thump_".time();
         $uploadPath =BASEURL.'/uploads/gallery/';
         @$fileExt=explode('.',$_FILES['photo']['name']) ;
-        $fileExt=end($fileExt);
         $uploadImageType =$sourceProperties[2];
         $sourceImageWidth = $sourceProperties[0];
         $sourceImageHeight = $sourceProperties[1];
