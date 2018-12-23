@@ -1,4 +1,10 @@
 <?php
+session_start();
+
+if(!isset($_SESSION['email'])){
+    echo "<script>window.location.href ='login.php';</script>";
+}
+
  include 'partials/adminhead.inc.php';
 ?>
  <div class="preloader">
@@ -14,10 +20,10 @@
                     <a class="nav-toggler waves-effect waves-light d-block d-md-none" href="javascript:void(0)"><i class="ti-menu ti-close"></i></a>
                     <a class="navbar-brand" href="index.html">
                         <b class="logo-icon p-l-10">
-                            <img src=""class="light-logo" />  
+                        
                         </b>
                         <span class="logo-text">
-                             <img src=""  class="light-logo" />
+                        <img src="../assets/images/logo.jpg" alt="logo" style="width:200px"/>
                         </span>
                     </a>
                     <a class="topbartoggler d-block d-md-none waves-effect waves-light" href="javascript:void(0)" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i class="ti-more"></i></a>

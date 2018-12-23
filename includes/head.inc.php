@@ -12,8 +12,7 @@ require('core/init.php')
         <meta name="keywords" content="">
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      
-
+    
         <link href="assets/css/font-awesome.min.css" rel="stylesheet">
         <link href="assets/css/style.css" rel="stylesheet">  
         <link href="assets/css/bootstrap.min.css" rel="stylesheet">
@@ -29,7 +28,7 @@ require('core/init.php')
     right: 0;
     bottom: 0;
     text-align: left;
-    padding: 10px;
+    padding: 0px;
     background: rgba(0,0,0,.6);
     text-shadow: none;
 }

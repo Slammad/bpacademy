@@ -1,4 +1,10 @@
-<?php include 'partials/adminhead.inc.php'?>
+<?php 
+include 'partials/adminhead.inc.php';
+session_start();
+if(isset($_SESSION['email'])){
+    echo "<script>window.location.href ='dashboard.php?dashboard=dashboard.php';</script>";
+}
+?>
 
 <div class="main-wrapper">
         <div class="preloader">
@@ -11,23 +17,24 @@
             <div class="auth-box bg-dark border-top border-secondary">
                 <div id="loginform">
                     <div class="text-center p-t-20 p-b-20">
-                        <span class="db"><img src="assets/assets/images/logo.png" alt="logo" /></span>
+                        <span class="db"><img src="../assets/images/logo.jpg" alt="logo" style="width:200px"/></span>
+                      
                     </div>
                    
-                    <form class="form-horizontal m-t-20" id="loginform" action="index.html">
+                    <form class="form-horizontal m-t-20" id="loginform" method="POST" action="login.php">
                         <div class="row p-b-30">
                             <div class="col-12">
                                 <div class="input-group mb-3">
                                     <div class="input-group-prepend">
                                         <span class="input-group-text bg-success text-white" id="basic-addon1"><i class="ti-user"></i></span>
                                     </div>
-                                    <input type="text" class="form-control form-control-lg" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1" required="">
+                                    <input type="text" class="form-control form-control-lg" name="email" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1" required="">
                                 </div>
                                 <div class="input-group mb-3">
                                     <div class="input-group-prepend">
                                         <span class="input-group-text bg-warning text-white" id="basic-addon2"><i class="ti-pencil"></i></span>
                                     </div>
-                                    <input type="text" class="form-control form-control-lg" placeholder="Password" aria-label="Password" aria-describedby="basic-addon1" required="">
+                                    <input type="password" class="form-control form-control-lg" name="password" placeholder="Password" aria-label="Password" aria-describedby="basic-addon1" required="">
                                 </div>
                             </div>
                         </div>
@@ -36,7 +43,7 @@
                                 <div class="form-group">
                                     <div class="p-t-20">
                                         <button class="btn btn-info" id="to-recover" type="button"><i class="fa fa-lock m-r-5"></i> Lost password?</button>
-                                        <button class="btn btn-success float-right" type="submit">Login</button>
+                                        <button class="btn btn-success float-right" type="submit" name="login">Login</button>
                                     </div>
                                 </div>
                             </div>
@@ -71,8 +78,28 @@
         </div>
      
     </div>
-    <!-- ============================================================== -->
-    <!-- All Required js -->
-    <!-- ============================================================== -->
-    <?php include 'partials/bodyscript.php' ?>
-    <?php include 'partials/adminfooter.inc.php'?>
+    
+<?php 
+
+if(isset($_POST['login'])){
+    $email=$_POST['email'];
+    $password=$_POST['password'];
+    $hashed_p = md5($password);
+    $query="SELECT * FROM `users` WHERE `email`='$email' AND `password`='$hashed_p'";
+    $run=$conn->query($query);
+    $row_cnt=mysqli_num_rows($run);
+    
+    if($row_cnt > 0){
+        $_SESSION['email']=$email;
+         echo "<script>window.location.href ='dashboard.php?dashboard=dashboard.php';</script>";
+       
+         
+    }else{
+        echo "<script>console.log('user record not found')</script>";
+    }
+   
+}
+
+include 'partials/bodyscript.php' ;
+include 'partials/adminfooter.inc.php';
+?>

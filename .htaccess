@@ -2,6 +2,7 @@ RewriteEngine on
 
 RewriteRule ^home index.php [NC,L]
 RewriteRule ^contact contactus.php [NC,L]
+RewriteRule ^admin admin/login.php [NC,L]
 
 
 php_value upload_max_filesize 128M
