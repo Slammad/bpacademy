@@ -5,7 +5,7 @@ if(!isset($_SESSION['email'])){
     echo "<script>window.location.href ='login.php';</script>";
 }
 
- include 'partials/adminhead.inc.php';
+include 'partials/adminhead.inc.php';
 ?>
  <div class="preloader">
         <div class="lds-ripple">
