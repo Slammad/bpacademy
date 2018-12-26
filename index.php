@@ -19,7 +19,7 @@
 
 <?php include 'partials/top.inc.php' ?>
 
-
+<script src="assets/js/moment.js" type="text/javascript"></script>
 <div class="container pt10">
     <div class="row">
         <div class="col-md-8 col-sm-8">
@@ -58,10 +58,11 @@
                                     while($news = mysqli_fetch_assoc($runnews)){ 
                                     ?>
                                 <li><a href="">
-                                        <div class="date">01<span>August</span></div>
+                                       
+                                        <div class="date"> <script>document.write(moment('<?=$news['date']?>').format("MMM Do YY")); </script></div>
                                         <?= strtoUpper($news['title'])?>
                                     </a>
-                                    <p>Contents as follows ..Read more</p>
+                                    <p style="color:red;">Read More ....</p>
                                 </li>
 
                                 <?php }?>
