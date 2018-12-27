@@ -85,7 +85,7 @@ if(isset($_GET['news'])){
 <?php
  }
 
- if(isset($_POST[''])){
+
     $title=$_POST['title'];
     $content=$_POST['content'];
 
@@ -104,5 +104,5 @@ if(isset($_GET['news'])){
         echo "<script>console.log('exists')</script>";
     }
    
-}
+ 
 ?>
