@@ -17,7 +17,9 @@
 ?>
 
 
-<?php include 'partials/top.inc.php' ?>
+<?php include 'partials/top.inc.php';
+    include 'partials/top.inc.php' 
+?>
 
 
 
