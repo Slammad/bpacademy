@@ -116,7 +116,10 @@ if(isset($_POST['add'])){
                   
                 $insert = "INSERT INTO `gallery`(`id`, `title`, `image_desc`, `image_path`) VALUES (NULL,'$imagetitle','$imagedesc','$dbpath')";
                 $runinsert = $conn->query($insert);
-                echo "<script>console.log('$dbpath')</script>";
+                if($runinsert = $conn->query($insert)){
+                    echo "<script>window.location.href = window.location.href;</script>";
+                }
+              
                 
                    
                 
