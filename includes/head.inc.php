@@ -5,6 +5,7 @@ require('core/init.php')
 <!DOCTYPE html>
 <html lang="en">
     <head>
+    <base href="http://beginnersprideacademy.com/">
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Home</title>
