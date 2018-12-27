@@ -92,7 +92,7 @@ if(isset($_POST['login'])){
    
     if($row_cnt > 0){
         $_SESSION['email']=$email;
-         echo "<script>window.location.href ='admin/dashboard';</script>";
+         echo "<script>window.location.href ='/dashboard';</script>";
        
          
     }else{
