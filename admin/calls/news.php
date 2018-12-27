@@ -22,7 +22,25 @@ if(isset($_GET['news'])){
                 <div class="p-2"><img src="assets/assets/images/users/1.jpg" alt="user" width="50" class="rounded-circle"></div>
                 <div class="comment-text w-100">
                     <h6 class="font-medium"><?=strtoUpper($posted['title'])?></h6>
-                    <span class="m-b-15 d-block"></span>
+                    <span class="m-b-15 d-block"><script>
+
+text_truncate = function(str, length, ending) {
+    if (length == null) {
+      length = 50;
+    }
+    if (ending == null) {
+      ending = '...';
+    }
+    if (str.length > length) {
+      return str.substring(0, length - ending.length) + ending;
+    } else {
+      return str;
+    }
+  };
+
+                        document.write(text_truncate('<?=$posted['content']?>'))
+                    </script>
+                    </span>
                     <div class="comment-footer">
                         <span class="text-muted float-right">April 14, 2016</span>
                       
