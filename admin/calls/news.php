@@ -22,7 +22,7 @@ if(isset($_GET['news'])){
                 <div class="p-2"><img src="assets/assets/images/users/1.jpg" alt="user" width="50" class="rounded-circle"></div>
                 <div class="comment-text w-100">
                     <h6 class="font-medium"><?=strtoUpper($posted['title'])?></h6>
-                    <span class="m-b-15 d-block"> </span>
+                    <span class="m-b-15 d-block"><?= mb_strimwidth("Hello World", 0, 10, "..."); $posted['content']?> </span>
                     <div class="comment-footer">
                         <span class="text-muted float-right">April 14, 2016</span>
                         <button type="button" name="edit" id="<?php echo $row['id']; ?>" class="btn btn-cyan btn-xs edit">Edit</button>
@@ -71,7 +71,7 @@ if(isset($_GET['news'])){
 
                     </div>
                     <div class="modal-footer">
-                     <button type="button" id="save" class="btn btn-danger" >Post</button>
+                     <button type="submit" name="postnews" class="btn btn-danger" >Post</button>
                
             </div>
                 </form>
@@ -85,7 +85,7 @@ if(isset($_GET['news'])){
 <?php
  }
 
-
+if(isset($_POST['postnews'])){
     $title=$_POST['title'];
     $content=$_POST['content'];
 
@@ -98,11 +98,13 @@ if(isset($_GET['news'])){
         $runnews = $conn->query($newsquery);
         if($runnews){
             echo "<script>console.log('success')</script>";
-           
+            echo "<script>window.location.href = window.location.href;</script>";
         }
     }else{
         echo "<script>console.log('exists')</script>";
     }
+}
+  
    
  
 ?>
