@@ -11,7 +11,7 @@
 
 
 <?php include 'partials/top.inc.php';
-    include 'partials/const.inc.php' 
+    include 'partials/const.php' 
 ?>
 
 
