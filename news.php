@@ -18,6 +18,8 @@
 
 
 <?php include 'partials/top.inc.php' ?>
+
+<script src="assets/js/moment.js" type="text/javascript"></script>
 <div class="container">
     <div class="row">
     <?php while($news=mysqli_fetch_assoc($runnews)){?>
