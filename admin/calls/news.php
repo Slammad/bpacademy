@@ -38,7 +38,7 @@ text_truncate = function(str, length, ending) {
     }
   };
 
-                        document.write(text_truncate('<?=$posted['content']?>'))
+                document.write(text_truncate('<?=$posted['content']?>'))
                     </script>
                     </span>
                     <div class="comment-footer">
