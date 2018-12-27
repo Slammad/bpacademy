@@ -5,6 +5,8 @@ RewriteRule ^contact contactus.php [NC,L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^admin admin/login.php [NC,L]
 RewriteRule ^admin/dashboard admin/dashboard.php?dashboard=dashboard.php [NC,L]
+RewriteRule ^admin/dashboard/settings admin/dashboard.php?editsite=editsite.php [NC,L]
+
 
 
 <ifmodule mod_headers.c="">
