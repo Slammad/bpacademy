@@ -83,7 +83,7 @@
                         <li class=" dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
                             <ul class="dropdown-menu">
-                                <li><a href="fees.php">Job Opportunities</a></li>
+                                <li><a href="#">Job Opportunities</a></li>
                             </ul>
                         </li>
                     </ul>
