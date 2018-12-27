@@ -4,8 +4,9 @@ RewriteRule ^home index.php [NC,L]
 RewriteRule ^contact contactus.php [NC,L]
 
 
-
-php_value upload_max_filesize 128M
-php_value post_max_size 128M
-php_value max_execution_time 300
-php_value max_input_time 300
+<ifmodule mod_headers.c="">
+   SetEnvIf Origin "^(.*\.domain\.com)$" ORIGIN_SUB_DOMAIN=$1
+   Header set Access-Control-Allow-Origin "%{ORIGIN_SUB_DOMAIN}e" env=ORIGIN_SUB_DOMAIN
+   Header set Access-Control-Allow-Methods: "*"
+   Header set Access-Control-Allow-Headers: "Origin, X-Requested-With, Content-Type, Accept, Authorization"
+</ifmodule>
