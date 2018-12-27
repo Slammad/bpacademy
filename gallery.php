@@ -6,19 +6,12 @@
 
 
 
-    $newsq = "SELECT * FROM `news`";
-    $runnews = $conn->query($newsq);
-
-
-    $contentsq = "SELECT * FROM `contents` WHERE `id`='1'";
-    $runcontent = $conn->query($contentsq);
-    $content = mysqli_fetch_assoc($runcontent);
     
 ?>
 
 
 <?php include 'partials/top.inc.php';
-    include 'partials/top.inc.php' 
+    include 'partials/const.inc.php' 
 ?>
 
 
