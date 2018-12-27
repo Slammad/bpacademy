@@ -180,9 +180,7 @@
                     <div class="tickercontainer">
                         <div class="mask">
                             <ul id="ticker01" class="newsticker" style="height: 666px; top: 124.54px;">
-                                <li><a href="">
-                                        <div class="date">2019<span>September</span></div>School Comencement
-                                    </a></li>
+                            
                                
                             </ul>
                         </div>
