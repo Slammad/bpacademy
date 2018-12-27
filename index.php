@@ -62,7 +62,7 @@
                                         <div class="date"> <script>document.write(moment('<?=$news['date']?>').format("MMM Do YY")); </script></div>
                                         <?= strtoUpper($news['title'])?>
                                     </a>
-                                    <p style="color:red;">Read More ....</p>
+                                    <a href="#" style="color:red;">Read More ........</a>
                                 </li>
 
                                 <?php }?>

@@ -30,7 +30,7 @@
                         <h4 class="media-heading"><b><?=strtoUpper($news['title'])?></b></h4>
                         <p><?= $news['content']?></p>
                         <ul class="list-inline list-unstyled">
-                            <li><span><i class="glyphicon glyphicon-calendar"></i> 2 days, 8 hours </span></li>
+                            <li><span><i class="glyphicon glyphicon-calendar"></i> <script>document.write(moment('<?=$news['date']?>').format("MMM Do YY")); </script></span></li>
                             <li class="pull-right">Read More</li>
                         </ul>
                     </div>
