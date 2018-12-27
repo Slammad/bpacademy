@@ -22,7 +22,7 @@ if(isset($_GET['news'])){
                 <div class="p-2"><img src="assets/assets/images/users/1.jpg" alt="user" width="50" class="rounded-circle"></div>
                 <div class="comment-text w-100">
                     <h6 class="font-medium"><?=strtoUpper($posted['title'])?></h6>
-                    <span class="m-b-15 d-block"><?=$posted['content']?> </span>
+                    <span class="m-b-15 d-block"><?= mb_strimwidth("Hello World", 0, 10, "..."); $posted['content']?> </span>
                     <div class="comment-footer">
                         <span class="text-muted float-right">April 14, 2016</span>
                         <button type="button" name="edit" id="<?php echo $row['id']; ?>" class="btn btn-cyan btn-xs edit">Edit</button>
@@ -81,29 +81,11 @@ if(isset($_GET['news'])){
     </div>
 </div>
 
-<script>
-    $(document).ready(function(){
-        $(document).on('click','#save',function(){
-            let title=$('#title').val();
-            let content=$('#content').val();  
-            $.ajax({
-                url:"dashboard.php?news=news.php"
-                method:"post",
-                data:{title:title,content:content},
-               
-                success:function(data){
-                    console.log('added success');
-                    location.reload();
-                }
-            });
-        })
-    });
-</script>
 
 <?php
  }
 
-
+ if(isset($_POST[''])){
     $title=$_POST['title'];
     $content=$_POST['content'];
 
@@ -122,5 +104,5 @@ if(isset($_GET['news'])){
         echo "<script>console.log('exists')</script>";
     }
    
- 
+}
 ?>
