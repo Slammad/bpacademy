@@ -33,7 +33,7 @@
                         <p><?= $news['content']?></p>
                         <ul class="list-inline list-unstyled">
                             <li><span><i class="glyphicon glyphicon-calendar"></i> <script>document.write(moment('<?=$news['date']?>').format("MMM Do YY")); </script></span></li>
-                            <li class="pull-right">Read More</li>
+                            <li class="pull-right"> <a href="singlenews.php?nid=<?=$news['id']?>" style="color:red;">Read More ........</a></li>
                         </ul>
                     </div>
                 </div>
