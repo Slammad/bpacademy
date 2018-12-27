@@ -125,6 +125,14 @@ h2 {
 }
 
 
+.thumb-contenido{
+    
+    margin-bottom:1%;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+
 </style>
 <body>
 

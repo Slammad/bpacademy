@@ -25,7 +25,7 @@
                 <li><i class="fas fa-envelope i-plain"></i><div class="he-text">Email Us<span><a href="mailto:<?=$settings['school_mail']?>"><?=$settings['school_mail']?></a></span></div></li>
                     <li><i class="fa fa-phone i-plain"></i><div class="he-text">Call Us<span><?=$settings['school_phone']?>,<?=$settings['tell2']?></span></div></li>
                     <li><i class="fa fa-pencil-square-o i-plain"></i>
-                        <div class="he-text">Feedback<span><a href="">Complain</a></span>
+                        <div class="he-text">Feedback<span><a href="contactus.php">Complain</a></span>
                         </div>
                     </li>
                 </ul>
@@ -80,8 +80,11 @@
                             <a href="news.php">News</a>
                         </li>
 
-                        <li class="">
-                            <a href="contactus.php">Contact Us</a>
+                        <li class=" dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="fees.php">Job Opportunities</a></li>
+                            </ul>
                         </li>
                     </ul>
                 </div><!-- /.navbar-collapse -->
