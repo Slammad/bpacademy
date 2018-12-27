@@ -25,9 +25,12 @@ if(isset($_GET['news'])){
                     <span class="m-b-15 d-block"></span>
                     <div class="comment-footer">
                         <span class="text-muted float-right">April 14, 2016</span>
-                        <button type="button" name="edit" id="<?php echo $row['id']; ?>" class="btn btn-cyan btn-xs edit">Edit</button>
-                     
-                        <button type="button" class="btn btn-danger btn-sm">Delete</button>
+                      
+                        <form action="" method="POST">
+                                    <input type="hidden" name="id" value="<?=$images['id'];?>">
+                                    <button type="submit" name="deletepost" class="btn btn-danger btn-sm">Delete</button>
+                                </form>
+                        
                     </div>
                 </div>
             </div>
@@ -85,6 +88,18 @@ if(isset($_GET['news'])){
 <?php
  }
 
+ if(isset($_POST['deletepost'])){
+    $id=$_POST['id'];
+
+    $query = "DELETE FROM `news` WHERE `id`='$id'";
+    $delete = $conn->query($query);
+
+    if($delete){
+       
+        echo "<script>window.location.href = window.location.href;</script>";
+    }
+
+}
 if(isset($_POST['postnews'])){
     $title=$_POST['title'];
     $content=$_POST['content'];
