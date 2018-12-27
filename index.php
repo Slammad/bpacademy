@@ -32,6 +32,13 @@
                             <p>Discipline, Diligence & Success</p>
                         </div>
                     </div>
+                    <div class="item">
+                        <img src="assets/images/image.jpg" alt="" />
+                        <div class="carousel-caption">
+                            <h4><a href="#">BEGINNERS PRIDE ACADEMY</a></h4>
+                            <p>Discipline, Diligence & Success</p>
+                        </div>
+                    </div>
 
                 </div>
                 <!--./carousel-inner-->
