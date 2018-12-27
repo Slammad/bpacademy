@@ -60,7 +60,7 @@
                                 <li><a href="">
                                        
                                         <div class="date"> <script>document.write(moment('<?=$news['date']?>').format("MMM Do YY")); </script></div>
-                                        <?= strtoUpper($news['title'])?>
+                                       <b> <?= strtoUpper($news['title'])?></b>
                                     </a>
                                     <a href="singlenews.php?nid=<?=$news['id']?>" style="color:red;">Read More ........</a>
                                 </li>
