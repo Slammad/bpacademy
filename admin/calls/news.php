@@ -22,16 +22,12 @@ if(isset($_GET['news'])){
                 <div class="p-2"><img src="assets/assets/images/users/1.jpg" alt="user" width="50" class="rounded-circle"></div>
                 <div class="comment-text w-100">
                     <h6 class="font-medium"><?=strtoUpper($posted['title'])?></h6>
-                    <span class="m-b-15 d-block"><?= mb_strimwidth($posted['content'], 0, 70, "...");?> </span>
+                    <span class="m-b-15 d-block"><?=$posted['content']?> </span>
                     <div class="comment-footer">
                         <span class="text-muted float-right">April 14, 2016</span>
-                        <button type="button" name="edit" id="<?php echo $row['id']; ?>" class="btn btn-info float-left">Edit</button>
+                        <button type="button" name="edit" id="<?php echo $row['id']; ?>" class="btn btn-cyan btn-xs edit">Edit</button>
                      
-                             <form action="" method="POST">
-                                    <input type="hidden" name="id" value="<?=$posted['id'];?>">
-                                    <button type="submit" name="deletepost" class="btn btn-danger">Delete</button>
-                                </form>
-                      
+                        <button type="button" class="btn btn-danger btn-sm">Delete</button>
                     </div>
                 </div>
             </div>
@@ -75,7 +71,7 @@ if(isset($_GET['news'])){
 
                     </div>
                     <div class="modal-footer">
-                     <button type="submit" id="save" name="post" class="btn btn-danger" >Post</button>
+                     <button type="button" id="save" class="btn btn-danger" >Post</button>
                
             </div>
                 </form>
@@ -85,24 +81,29 @@ if(isset($_GET['news'])){
     </div>
 </div>
 
+<script>
+    $(document).ready(function(){
+        $(document).on('click','#save',function(){
+            let title=$('#title').val();
+            let content=$('#content').val();  
+            $.ajax({
+                url:"dashboard.php?news=news.php"
+                method:"post",
+                data:{title:title,content:content},
+               
+                success:function(data){
+                    console.log('added success');
+                    location.reload();
+                }
+            });
+        })
+    });
+</script>
 
 <?php
  }
 
- if(isset($_POST['deletepost'])){
-    $id=$_POST['id'];
 
-    $query = "DELETE FROM `news` WHERE `id`='$id'";
-    $delete = $conn->query($query);
-
-    if($delete){
-       
-        echo "<script>window.location.href = window.location.href;</script>";
-    }
-
- }
-
- if(isset($_POST['post'])){
     $title=$_POST['title'];
     $content=$_POST['content'];
 
@@ -115,12 +116,11 @@ if(isset($_GET['news'])){
         $runnews = $conn->query($newsquery);
         if($runnews){
             echo "<script>console.log('success')</script>";
-            echo "<script>window.location.href = window.location.href;</script>";
            
         }
     }else{
         echo "<script>console.log('exists')</script>";
     }
    
-}
+ 
 ?>
