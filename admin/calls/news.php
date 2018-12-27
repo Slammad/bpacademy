@@ -27,7 +27,7 @@ if(isset($_GET['news'])){
                         <span class="text-muted float-right">April 14, 2016</span>
                       
                         <form action="" method="POST">
-                                    <input type="hidden" name="id" value="<?=$images['id'];?>">
+                                    <input type="hidden" name="id" value="<?=$posted['id'];?>">
                                     <button type="submit" name="deletepost" class="btn btn-danger btn-sm">Delete</button>
                                 </form>
                         
