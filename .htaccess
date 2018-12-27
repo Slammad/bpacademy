@@ -4,7 +4,7 @@ RewriteRule ^home index.php [NC,L]
 RewriteRule ^contact contactus.php [NC,L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^admin admin/login.php [NC,L]
-RewriteRule ^admin/dashboard admin/dashboard.php?dashboard=dashboard.php [NC,L]
+RewriteRule ^admin/dashboard admin/dashboard.php [NC,L]
 
 
 
