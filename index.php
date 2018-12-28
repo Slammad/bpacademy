@@ -29,14 +29,14 @@
                         <img src="assets/images/caro.jpg" alt="" />
                         <div class="carousel-caption">
                             <h4><a href="#">BEGINNERS PRIDE ACADEMY</a></h4>
-                            <p>Discipline, Diligence & Success</p>
+                            <p><b>Motto: </b>Discipline, Diligence & Success</p>
                         </div>
                     </div>
                     <div class="item">
-                        <img src="assets/images/image.jpg" alt="" />
+                        <img src="assets/images/image.jpg" style="height:350px;" alt="" />
                         <div class="carousel-caption">
                             <h4><a href="#">BEGINNERS PRIDE ACADEMY</a></h4>
-                            <p>Discipline, Diligence & Success</p>
+                            <p>Schools Uniform .....</p>
                         </div>
                     </div>
 
