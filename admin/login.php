@@ -1,7 +1,7 @@
 <?php 
 session_start();
 if (isset($_SESSION['email'])){
-    echo "<script>window.location.href ='/admin/dashboard';</script>";
+    echo "<script>window.location.href ='/admin/dashboard?dashboard=dashboard.php';</script>";
 }
 include 'partials/adminhead.inc.php';
 ?>
@@ -92,7 +92,7 @@ if(isset($_POST['login'])){
    
     if($row_cnt > 0){
         $_SESSION['email']=$email;
-         echo "<script>window.location.href ='/admin/dashboard';</script>";
+         echo "<script>window.location.href ='/admin/dashboard?dashboard=dashboard.php';</script>";
        
          
     }else{
