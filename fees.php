@@ -29,7 +29,7 @@
         <div class="row">
             <div class="col-md-9 col-sm-9">
                 <h3><b>FEES REGIME OF THE SCHOOL</b></h3>
-                <p>The fees to be charged in the school will be moderate but subject to review from time to time. Parent will always be informed os such reviews in gregoriantojd
+                <p>The fees to be charged in the school will be moderate but subject to review from time to time. Parent will always be informed os such reviews in good
                     time to allow room for appropriate planning.The school intend to charge the following fees:
                 </p>
             </div>
