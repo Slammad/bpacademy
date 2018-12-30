@@ -27,10 +27,7 @@
                 <div class="carousel-inner">
                     <div class="item active">
                         <img src="assets/images/caro.jpg" alt="" />
-                        <div class="carousel-caption">
-                            <h4><a href="#">BEGINNERS PRIDE ACADEMY</a></h4>
-                            <p><b>Motto: </b>Discipline, Diligence & Success</p>
-                        </div>
+                       
                     </div>
                     <div class="item">
                         <img src="assets/images/image.jpg" style="height:350px;" alt="" />
@@ -39,8 +36,10 @@
                             <p>Schools Uniform .....</p>
                         </div>
                     </div>
+                    
 
                 </div>
+                
                 <!--./carousel-inner-->
                 <a class="left carousel-control" href="#bootstrap-touch-slider" data-slide="prev">
                     <span class="fa fa-angle-left"></span>
@@ -54,6 +53,7 @@
             </div>
             <!--./bootstrap-touch-slider-->
         </div>
+     
         <div class="col-md-4 col-sm-4">
             <div class="sidebar newsmain">
                 <div class="catetab">Latest News</div>
@@ -85,6 +85,13 @@
     </div>
 </div>
 
+<div class="container pt10">
+    <div class="row">
+    <div class="motto col-md-12">
+        <marquee><p style="color:white"><b>Motto: </b> Discipline, Diligence & Success</p></marquee>
+        </div>
+    </div>
+</div>
 <br><br>
 <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:980px;height:150px;overflow:hidden;visibility:hidden;">
     <!-- Loading Screen -->

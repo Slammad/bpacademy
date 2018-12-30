@@ -132,7 +132,14 @@ h2 {
     padding-left: 0px;
 }
 
-
+.motto.col-md-12 {
+    height: 30px;
+    background: black;
+    border-radius: 5px;
+    top: 0;
+    border-top: 2px solid red;
+    opacity: 0.8;
+}
 </style>
 <body>
 
