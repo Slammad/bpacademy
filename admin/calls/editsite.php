@@ -87,7 +87,7 @@ if(isset($_POST['submit'])){
 
 
 
-    $query1 ="UPDATE `settings` SET `school_name`='$sname', `school_phone`='$sphone', `tell2`='$sphone1' WHERE `id`='1'";
+    $query1 ="UPDATE `settings` SET `school_name`='$sname', `school_phone`='$sphone',`school_mail`='$smail', `tell2`='$sphone1' WHERE `id`='1'";
 
     $update = $conn->query($query1);
 
