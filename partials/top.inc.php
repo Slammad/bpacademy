@@ -68,10 +68,12 @@
                         <li class=" dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Academics <b class="caret"></b></a>
                             <ul class="dropdown-menu">
-                                <li><a href="fees.php">Fees</a></li>
+                               
                             </ul>
                         </li>
-                        
+                         <li class="">
+                            <a href="fees.php">Fees</a>
+                        </li>
                         <li class="">
                             <a href="events.php">Events</a>
                         </li>
