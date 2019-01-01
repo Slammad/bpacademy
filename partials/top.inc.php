@@ -82,12 +82,10 @@
                             <a href="news.php">News</a>
                         </li>
 
-                        <li class=" dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">Job Opportunities</a></li>
-                            </ul>
+                        <li class="">
+                            <a href="about.php">About</a>
                         </li>
+                        
                     </ul>
                 </div><!-- /.navbar-collapse -->
             </nav><!-- /.navbar -->
