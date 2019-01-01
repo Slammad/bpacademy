@@ -67,8 +67,9 @@
                                        <b> <?= strtoUpper($news['title'])?></b>
                                     </a>
                                     <a href="singlenews.php?nid=<?=$news['id']?>" style="color:red;">Read More ........</a>
+                                    <hr>
                                 </li>
-                                <hr>
+                             
                                 <?php }?>
                             </ul>
                         </div>
