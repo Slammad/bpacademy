@@ -58,7 +58,7 @@ $gallery = $conn->query($fetchgallery);
 }
 
 function resizeImage($resourceType,$image_width,$image_height){
-    $resizeWidth = 250; 
+    $resizeWidth = 200; 
     $resizeHeight = 200;
     $imageLayer = imagecreatetruecolor($resizeWidth,$resizeHeight);
     imagecopyresampled($imageLayer,$resourceType,0,0,0,0,$resizeWidth,$resizeHeight,$image_width,$image_height);

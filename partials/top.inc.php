@@ -68,7 +68,7 @@
                         <li class=" dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Academics <b class="caret"></b></a>
                             <ul class="dropdown-menu">
-                               
+                               <li></li>
                             </ul>
                         </li>
                          <li class="">
