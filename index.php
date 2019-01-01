@@ -61,13 +61,13 @@
                                 <?php 
                                     while($news = mysqli_fetch_assoc($runnews)){ 
                                     ?>
-                                <li><a href="">
+                                <li style="border-top:1px solid black;"><a href="">
                                        
                                         <div class="date"> <script>document.write(moment('<?=$news['date']?>').format("MMM Do YY")); </script></div>
                                        <b> <?= strtoUpper($news['title'])?></b>
                                     </a>
                                     <a href="singlenews.php?nid=<?=$news['id']?>" style="color:red;">Read More ........</a>
-                                    <hr>
+                                  
                                 </li>
                              
                                 <?php }?>
