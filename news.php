@@ -6,7 +6,7 @@
 
 
 
-    $newsq = "SELECT * FROM `news`";
+    $newsq = "SELECT * FROM `news` order by `id` desc";
     $runnews = $conn->query($newsq);
 
 
