@@ -54,7 +54,7 @@
         <div class="col-md-4 col-sm-4">
             <div class="sidebar newsmain">
                 <div class="catetab">Latest News</div>
-                <div class="newscontent">
+                <div class="newscontent" style="background:#e6ecf0;">
                     <div class="tickercontainer">
                         <div class="mask">
                             <ul id="ticker01" class="newsticker" style="height: 666px; top: 124.54px;">
