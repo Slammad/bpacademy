@@ -68,7 +68,7 @@
                                     </a>
                                     <a href="singlenews.php?nid=<?=$news['id']?>" style="color:red;">Read More ........</a>
                                 </li>
-
+                                <hr>
                                 <?php }?>
                             </ul>
                         </div>
