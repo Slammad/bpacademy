@@ -14,6 +14,15 @@
     $runcontent = $conn->query($contentsq);
     $content = mysqli_fetch_assoc($runcontent);
     
+    function truncate($text, $chars = 120) {
+        if(strlen($text) > $chars) {
+            $text = $text.' ';
+            $text = substr($text, 0, $chars);
+            $text = substr($text, 0, strrpos($text ,' '));
+            $text = $text.'...';
+        }
+        return $text;
+    }
 ?>
 
 
@@ -30,7 +39,7 @@
                 <div class="media">
                     <div class="media-body">
                         <h4 class="media-heading"><b><?=strtoUpper($news['title'])?></b></h4>
-                        <p><?= $news['content']?></p>
+                        <p><?= truncate($news['content'])?></p>
                         <ul class="list-inline list-unstyled">
                             <li><span><i class="glyphicon glyphicon-calendar"></i> <script>document.write(moment('<?=$news['date']?>').format("MMM Do YY")); </script></span></li>
                             <li class="pull-right"> <a href="singlenews.php?nid=<?=$news['id']?>" style="color:red;">Read More ........</a></li>
