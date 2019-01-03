@@ -16,7 +16,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md-8 offset-md-2">
-        <h3><b>TAKE OF PLAN</b></h3>
+        <h3><b>TAKE OFF PLAN</b></h3>
         
         <p>The school plans to commence full academic activities by September 2019. Meanwhile, you are invited to visit the school to see the facilities put in place to give children the best of what education can provide. A visit to the school will surely convince you</p>
         <h3><b>APPLICATION PROCEDURE</b></h3>
