@@ -25,13 +25,12 @@
              <div class="col-md-12">
 
                      
-                 <div class="col-md-4 col-xs-12 thumb-contenido"><i class="fas fa-newspaper" style="font-size:200px;"></i></div><br><br><br><br><br><br><br><br><br><br><br>
+                 <div class="col-md-4 col-xs-12 thumb-contenido"><i class="fas fa-newspaper" style="font-size:100px;"></i></div><br><br><br><br><br><br><br><br><br><br><br>
                  <div class="">
                      <h1  class="hidden-xs hidden-sm"><?=strtoupper($news['title'])?></h1>
                      <hr>
                      <small><script>document.write(moment('<?=$news['date']?>').format("MMM Do YY")); </script></small><br>
                      <small><strong>Admin</strong></small>
-                     <hr>
                      <p class="text-justify"><?=$news['content']?></p></div>
              </div>
         </div>
