@@ -23,7 +23,7 @@
 <div class="well"> 
         <div class="row">
              <div class="col-md-12">                     
-                 <div class="col-md-4 col-xs-12 thumb-contenido"><i class="fas fa-newspaper" style="font-size:100px;"></i></div><br><br><br><br><br><br><br><br><br><br><br>
+                 <div class="col-md-4 col-xs-12"><i class="fas fa-newspaper" style="font-size:100px;"></i></div><br><br><br><br><br><br><br><br><br><br><br>
                  <div class="">
                      <h1  class="hidden-xs hidden-sm"><?=strtoupper($news['title'])?></h1>
                 
