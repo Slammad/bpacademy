@@ -25,7 +25,7 @@
              <div class="col-md-12">                     
                  <div class="col-md-4 col-xs-12"><i class="fas fa-newspaper" style="font-size:100px;"></i></div><br><br><br><br><br><br>
                  <div class="">
-                     <h1  class="hidden-xs hidden-sm"><?=strtoupper($news['title'])?></h1>
+                     <h1  class="hidden-xs hidden-sm"><b><?=strtoupper($news['title'])?></b></h1>
                 
                      <small><script>document.write(moment('<?=$news['date']?>').format("MMM Do YY")); </script></small><br>
                      <small><strong>Admin</strong></small>
