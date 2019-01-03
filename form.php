@@ -16,10 +16,8 @@
 
 
 <div class="container">
-	<br>
-
-	<br>
-	<div class="col-lg-10 offset-lg-2 well">
+<br>
+	<div class="col-md-10 offset-md-2 well">
 		<div class="row">
 		<center><h3><b>APPLICATION FORM</b></h3></center><br>
 			<form>
@@ -122,7 +120,7 @@
 						<label>Health Challenges</label>
 						<textarea placeholder="If any kindly state.." rows="3" class="form-control"></textarea>
 					</div>
-					<button type="button" class="btn btn-lg btn-info">Submit</button>
+					<center><button type="button" class="btn btn-danger">Preview & Submit</button></center>
 				</div>
 			</form>
 		</div>
