@@ -20,7 +20,7 @@ require('core/init.php')
         <link rel="stylesheet" href="assets/dist/themes/default/skins/_all-skins.min.css">
         <link rel="stylesheet" href="assets/dist/themes/default/ss-main.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
-    
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 
     </head>
     <style>
