@@ -140,6 +140,10 @@ h2 {
     border-top: 2px solid red;
     opacity: 0.8;
 }
+.error{
+    color:red;
+    padding:3px;
+}
 </style>
 <body>
 
