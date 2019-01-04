@@ -8,7 +8,7 @@ require('core/init.php')
     <base href="http://beginnersprideacademy.com/">
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Home</title>
+        <title>Beginners' Pride Academy</title>
         <meta name="title" content="">
         <meta name="keywords" content="">
         <meta name="description" content="">
