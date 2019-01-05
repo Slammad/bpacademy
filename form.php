@@ -238,11 +238,11 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
 		<center><h3><b>APPLICATION FORM</b></h3></center><br>
 			<form action="form.php" method="POST">
 			<div class="float-right" style="margin:20px;">
-			<span class="error"><?= $passport_error ?></span>
+			
 				<label class=newbtn>
 					<img id="blah" src="http://placehold.it/140x140" >
 					<p>Upload Passport<br><span class="error" style="font-size:13px;">less than 100kb</span></p>
-					
+					<span class="error"><?= $passport_error ?></span>
 					<input id="pic" class='pis' name="passport" onchange="readURL(this);" type="file" >
 				</label>
 			</div>
