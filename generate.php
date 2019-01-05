@@ -6,6 +6,9 @@ $runsettings = $conn->query($settingsq);
 $settings = mysqli_fetch_assoc($runsettings);
 
 $candidate = $_GET['candidate'];
+$dob = $_GET['dob'];
+$state = $_GET['state'];
+$tribe = $_GET['tribe'];
 ?>
 
 <!DOCTYPE html>
@@ -136,9 +139,10 @@ $candidate = $_GET['candidate'];
 					<div class="col-xs-8 col-sm-8 col-md-8 text-left">
 						<div class="receipt-right">
 							<h5><?=$candidate?></h5>
-							<p><b>Mobile :</b> +91 12345-6789</p>
-							<p><b>Email :</b> info@gmail.com</p>
-							<p><b>Address :</b> Australia</p>
+							<p><b>Date of Birth :</b> <?=$dob?></p>
+							<p><b>Age By September :</b> info@gmail.com</p>
+                            <p><b>Tribe :</b> <?=$tribe?></p>
+                            <p><b>State :</b> <?=$state?></p>
 						</div>
 					</div>
 					<div class="col-xs-4 col-sm-4 col-md-4">
