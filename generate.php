@@ -107,7 +107,7 @@
     			<div class="receipt-header">
 					<div class="col-xs-6 col-sm-6 col-md-6">
 						<div class="receipt-left">
-							<img class="img-responsive" alt="iamgurdeeposahan" src="http://bootsnipp.com/img/avatars/bcf1c0d13e5500875fdd5a7e8ad9752ee16e7462.jpg" style="width: 71px; border-radius: 43px;">
+                        <img src="assets/images/logo.jpg" style="height:80px;" alt="">
 						</div>
 					</div>
 					<div class="col-xs-6 col-sm-6 col-md-6 text-right">
