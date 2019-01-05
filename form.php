@@ -23,9 +23,11 @@ function test_input($data) {
 
 if($_SERVER["REQUEST_METHOD"]=="POST"){
 
-	if(isset($_FILES['passport'])){
-      
-        $file_name = $_FILES['passport']['name'];
+	if(empty($_FILES['passport'])){
+		$passport_error ="Passport not uploaded";
+       
+	}else{
+		$file_name = $_FILES['passport']['name'];
         $file_size =$_FILES['passport']['size'];
         @$file_tmp =$_FILES['passport']['tmp_name'];
         $file_type=$_FILES['passport']['type'];
@@ -43,6 +45,7 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
 		}else{
 			move_uploaded_file($file_tmp,$uploadPath);
 		}
+
 	}
 		
 	if(empty($_POST['fullname'])){
