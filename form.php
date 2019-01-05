@@ -23,7 +23,7 @@ function test_input($data) {
 
 if($_SERVER["REQUEST_METHOD"]=="POST"){
 
-	if(empty($_FILES['passport'])){
+	if(!isset($_FILES['passport'])){
 		$passport_error ="Passport not uploaded";
        
 	}else{
