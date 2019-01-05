@@ -10,6 +10,10 @@ $dob = $_GET['dob'];
 $state = $_GET['state'];
 $tribe = $_GET['tribe'];
 $age = $_GET['age'];
+
+if($candidate == ''){
+    echo "<script>window.location.href ='form.php';</script>";
+}
 ?>
 
 <!DOCTYPE html>
