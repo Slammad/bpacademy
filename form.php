@@ -236,7 +236,7 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
 	<div class="col-md-10 offset-md-2 well">
 		<div class="row">
 		<center><h3><b>APPLICATION FORM</b></h3></center><br>
-			<form action="form.php" method="POST">
+			<form action="form.php" method="POST" enctype="multipart/form-data">
 			<div class="float-right" style="margin:20px;">
 			
 				<label class=newbtn>
