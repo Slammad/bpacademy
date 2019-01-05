@@ -133,8 +133,8 @@ if($candidate == ''){
 						<div class="receipt-right">
 							<h5></h5>
 							<p><?=$settings['school_phone']?>,<?=$settings['tell2']?> <i class="fas fa-phone"></i></p>
-							<p><b><?=$settings['school_mail']?><i class="fas fa-envelope-o"></i></b></p>
-							<p><?=$settings['school_address']?><i class="fas fa-location-arrow"></i></p>
+							<p><b><?=$settings['school_mail']?><i class="fas fa-envelope"></i></b></p>
+							<p><?=$settings['school_address']?></p>
 						</div>
 					</div>
 				</div>
