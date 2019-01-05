@@ -11,8 +11,8 @@
 
 
 <?php include 'partials/top.inc.php';
-$fullname_error=$dob_error=$age_error=$gender_error=$state_error=$tribe_error=$religion_error=$class_error=$pschool_error=$father_error=$father_occ_error=$father_addr_error=$father_phone_error=$mother_error=$mother_occ_error=$mother_addr_error=$mother_phone_error="";
-$fullname=$dob=$age=$state=$tribe=$religion=$class=$pschool=$father=$father_occ=$father_addr=$father_phone=$mother=$mother_occ=$mother_addr=$mother_phone=$health="";
+$fullname_error=$dob_error=$age_error=$gender_error=$state_error=$tribe_error=$religion_error=$class_error=$pschool_error=$father_error=$father_occ_error=$father_addr_error=$father_phone_error=$mother_error=$mother_occ_error=$mother_addr_error=$mother_phone_error=$passport_error="";
+$fullname=$dob=$age=$state=$tribe=$religion=$class=$pschool=$father=$father_occ=$father_addr=$father_phone=$mother=$mother_occ=$mother_addr=$mother_phone=$health=$dbpath="";
 
 function test_input($data) {
 	$data = trim($data);
@@ -23,6 +23,28 @@ function test_input($data) {
 
 if($_SERVER["REQUEST_METHOD"]=="POST"){
 
+	if(isset($_FILES['passport'])){
+      
+        $file_name = $_FILES['passport']['name'];
+        $file_size =$_FILES['passport']['size'];
+        @$file_tmp =$_FILES['passport']['tmp_name'];
+        $file_type=$_FILES['passport']['type'];
+        $allowed = array('png','jpg','jpeg','gif');
+        @$file_ext=explode('.',$_FILES['passport']['name']) ;
+        $file_ext=end($file_ext);
+        @$file_ext=strtolower(end(explode('.',$_FILES['passport']['name']))); 
+        $uploadName = md5(microtime()).'.'.$file_ext;
+        $uploadPath = BASEURL.'/uploads/passports/'.$uploadName;
+        $dbpath='/uploads/passports/'.$uploadName;
+
+        if (($file_size > 100000)){      
+			$passport_error ="File must be less than 100KB";
+             
+		}else{
+			move_uploaded_file($file_tmp,$uploadPath);
+		}
+	}
+		
 	if(empty($_POST['fullname'])){
 		 $fullname_error="Name is Required";
 	}else{
@@ -184,7 +206,7 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
 		</div>";
 		
 		}else{
-			$query = "INSERT INTO `admissions`(`id`, `full_name`, `dob`, `age`, `gender`, `state`, `tribe`, `religion`, `previous_school`, `class_of_admission`, `father_name`, `father_occup`, `father_addr`, `father_phone`, `mother_name`, `mother_occup`, `mother_addr`, `mother_phone`, `health_challenge`, `passport`) VALUES (NULL,'$fullname','$dob','$age','$gender','$state','$tribe','$religion','$pschool','$class','$father','$father_occ','$father_addr','$father_phone','$mother','$mother_occ','$mother_addr','$mother_phone','$health','passport')";
+			$query = "INSERT INTO `admissions`(`id`, `full_name`, `dob`, `age`, `gender`, `state`, `tribe`, `religion`, `previous_school`, `class_of_admission`, `father_name`, `father_occup`, `father_addr`, `father_phone`, `mother_name`, `mother_occup`, `mother_addr`, `mother_phone`, `health_challenge`, `passport`) VALUES (NULL,'$fullname','$dob','$age','$gender','$state','$tribe','$religion','$pschool','$class','$father','$father_occ','$father_addr','$father_phone','$mother','$mother_occ','$mother_addr','$mother_phone','$health','$dbpath')";
 		$run =$conn->query($query);
 		if($run){
 			echo "<script>console.log('Applied Successfully')</script>";
@@ -207,10 +229,20 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
 
 <div class="container">
 <br>
+
 	<div class="col-md-10 offset-md-2 well">
 		<div class="row">
 		<center><h3><b>APPLICATION FORM</b></h3></center><br>
 			<form action="form.php" method="POST">
+			<div class="float-right" style="margin:20px;">
+			<span class="error"><?= $passport_error ?></span>
+				<label class=newbtn>
+					<img id="blah" src="http://placehold.it/140x140" >
+					<p>Upload Passport<br><span class="error" style="font-size:13px;">less than 100kb</span></p>
+					
+					<input id="pic" class='pis' name="passport" onchange="readURL(this);" type="file" >
+				</label>
+			</div>
 				<div class="col-sm-12">
 					<div class="row">
 						<div class="col-sm-6 form-group">
@@ -223,6 +255,26 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
 							<input type="Date" id="datepicker" class="form-control" name="dob" value="<?=$dob?>" placeholder="Choose">
 							<span class="error"><?= $dob_error ?></span>
 						</div>
+					
+						<script>
+ 
+ $('.newbtn').bind("click" , function () {
+        $('#pic').click();
+ });
+ 
+  function readURL(input) {
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+
+                reader.onload = function (e) {
+                    $('#blah')
+                        .attr('src', e.target.result);
+                };
+
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+</script>
 					</div>
 					<div class="row">
 						<div class="col-sm-4 form-group">

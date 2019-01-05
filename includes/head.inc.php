@@ -24,6 +24,20 @@ require('core/init.php')
 
     </head>
     <style>
+
+#pic{
+     display: none;
+       }
+       
+ .newbtn{
+         cursor: pointer;
+      }
+      #blah{
+  max-width:100px;
+  height:100px;
+  margin-top:20px;
+}
+
 .carousel-caption {
     left: 0;
     right: 0;

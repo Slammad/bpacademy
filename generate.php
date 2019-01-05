@@ -139,7 +139,7 @@ if($candidate == ''){
 					</div>
 				</div>
             </div>
-			
+			<hr>
 			<div class="row">
 				<div class="receipt-header receipt-header-mid">
 					<div class="col-xs-8 col-sm-8 col-md-8 text-left">
