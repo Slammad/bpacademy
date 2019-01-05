@@ -1,3 +1,11 @@
+<?php
+require('core/init.php');
+
+$settingsq = "SELECT * FROM `settings` WHERE `id`=1";
+$runsettings = $conn->query($settingsq);
+$settings = mysqli_fetch_assoc($runsettings);
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -112,7 +120,7 @@
 					</div>
 					<div class="col-xs-6 col-sm-6 col-md-6 text-right">
 						<div class="receipt-right">
-							<h5>TechiTouch.</h5>
+							<h5><?=$settings['shool_mname']?></h5>
 							<p>+91 12345-6789 <i class="fa fa-phone"></i></p>
 							<p>info@gmail.com <i class="fa fa-envelope-o"></i></p>
 							<p>Australia <i class="fa fa-location-arrow"></i></p>
