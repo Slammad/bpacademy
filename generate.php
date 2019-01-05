@@ -24,6 +24,7 @@ if($candidate == ''){
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Acknowledgement Slip</title>
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
     
 </head>
 <style>
@@ -132,8 +133,8 @@ if($candidate == ''){
 						<div class="receipt-right">
 							<h5></h5>
 							<p><?=$settings['school_phone']?>,<?=$settings['tell2']?> <i class="fas fa-phone"></i></p>
-							<p><b><?=$settings['school_mail']?><i class="fa fa-envelope-o"></i></b></p>
-							<p><?=$settings['school_address']?><i class="fa fa-location-arrow"></i></p>
+							<p><b><?=$settings['school_mail']?><i class="fas fa-envelope-o"></i></b></p>
+							<p><?=$settings['school_address']?><i class="fas fa-location-arrow"></i></p>
 						</div>
 					</div>
 				</div>
@@ -145,7 +146,7 @@ if($candidate == ''){
 						<div class="receipt-right">
 							<h5><?=$candidate?></h5>
 							<p><b>Date of Birth :</b> <?=$dob?></p>
-							<p><b>Age By September :</b> info@gmail.com</p>
+							<p><b>Age By September :</b><?=$age?></p>
                             <p><b>Tribe :</b> <?=$tribe?></p>
                             <p><b>State :</b> <?=$state?></p>
 						</div>
