@@ -188,7 +188,7 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
 		$run =$conn->query($query);
 		if($run){
 			echo "<script>console.log('Applied Successfully')</script>";
-			echo "<script>window.location.href ='generate.php?candidate=$fullname&dob=$dob&state=$state&tribe=$tribe';</script>";
+			echo "<script>window.location.href ='generate.php?candidate=$fullname&dob=$dob&state=$state&tribe=$tribe&age=$age';</script>";
 		}
 		
 		}

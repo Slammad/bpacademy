@@ -9,6 +9,7 @@ $candidate = $_GET['candidate'];
 $dob = $_GET['dob'];
 $state = $_GET['state'];
 $tribe = $_GET['tribe'];
+$age = $_GET['age'];
 ?>
 
 <!DOCTYPE html>
@@ -152,15 +153,16 @@ $tribe = $_GET['tribe'];
 					</div>
 				</div>
             </div>
-			
+            <center><h3 style="font-family:tahoma;"><b>ACKNOWLEDGEMENT</b></h2></center>
+            <p>We appreciate your interest in our school. Please kindly await our review of your application as shortlisted candidates will be informed approprately.</p>
           
 			
 			<div class="row">
 				<div class="receipt-header receipt-header-mid receipt-footer">
 					<div class="col-xs-8 col-sm-8 col-md-8 text-left">
 						<div class="receipt-right">
-							<p><b>Date :</b> 15 Aug 2016</p>
-							<h5 style="color: rgb(140, 140, 140);">Thank you for your business!</h5>
+							<p><b>Date :</b> <?php echo date("F j, Y, g:i a")?> </p>
+							<h5 style="color: rgb(140, 140, 140);">Thank you !</h5>
 						</div>
 					</div>
 					<div class="col-xs-4 col-sm-4 col-md-4">
