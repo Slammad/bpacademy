@@ -74,6 +74,7 @@ include 'partials/adminhead.inc.php';
                             </ul>
                         </li>
                         <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="dashboard.php?gallery=gallery.php" aria-expanded="false"><i class="mdi mdi-border-inside"></i><span class="hide-menu">Gallery</span></a></li>
+                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="dashboard.php?candidates=candidates.php" aria-expanded="false"><i class="mdi mdi-border-inside"></i><span class="hide-menu">Candidates</span></a></li>
                         
                        
                     </ul>
@@ -109,6 +110,7 @@ include 'partials/adminhead.inc.php';
                         include 'calls/banner.php';
                         include 'calls/gallery.php';
                         include 'calls/fees.php';
+                        include 'calls/candidates.php';
                         
                     
                 ?>
