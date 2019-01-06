@@ -27,6 +27,7 @@ if(isset($_GET['candidates'])){
                             <th scope="col">Tribe</th>
                             <th scope="col">Status</th>
                             <th scope="col">Action</th>
+                            <th scope="col"></th>
                       
                            
                         </tr>
@@ -41,6 +42,7 @@ if(isset($_GET['candidates'])){
                            <td><?=$candidate['tribe']?></td>
                            <td><span class="printed">printed</span></td>
                            <td><button class="btn btn-danger"><i class="fas fa-trash"></i></button></td>
+                           <td><button class="btn btn-danger"><i class="fas fa-edit"></i></button></td>
                         </tr>
                     <?php }?>
                     </tbody>
