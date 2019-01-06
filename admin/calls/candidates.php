@@ -14,7 +14,7 @@ if(isset($_GET['candidates'])){
     <div class="col-md-12">
         <div class="card">
             <div class="card-body">
-                <h5 class="card-title m-b-0">Slides</h5>
+                <h5 class="card-title m-b-0">Applied Pupils</h5>
             </div>
             <div class="table-responsive">
                 <table class="table">
@@ -25,6 +25,8 @@ if(isset($_GET['candidates'])){
                             <th scope="col">Full Name</th>
                             <th scope="col">State</th>
                             <th scope="col">Tribe</th>
+                            <th scope="col">Status</th>
+                            <th scope="col">Action</th>
                       
                            
                         </tr>
@@ -37,6 +39,8 @@ if(isset($_GET['candidates'])){
                            <td><?=$candidate['full_name']?></td>
                            <td><?=$candidate['state']?></td>
                            <td><?=$candidate['tribe']?></td>
+                           <td><span class="printed">printed</span></td>
+                           <td><button class="btn btn danger"><i class="fas fa-trash"></i>Print</button></td>
                         </tr>
                     <?php }?>
                     </tbody>
