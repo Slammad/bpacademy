@@ -42,7 +42,7 @@ if(isset($_GET['candidates'])){
                            <td><?=$candidate['tribe']?></td>
                            <td><span class="printed">printed</span></td>
                            <td><button class="btn btn-danger"><i class="fas fa-trash"></i></button></td>
-                           <td><button class="btn btn-info"><i class="fas fa-edit"></i></button></td>
+                           <td><button class="btn btn-info"><i class="fas fa-printer"></i></button></td>
                         </tr>
                     <?php }?>
                     </tbody>
