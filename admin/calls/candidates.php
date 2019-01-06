@@ -41,7 +41,10 @@ if(isset($_GET['candidates'])){
                            <td><?=$candidate['state']?></td>
                            <td><?=$candidate['tribe']?></td>
                            <td><span class="printed">printed</span></td>
-                           <td><button class="btn btn-danger"><i class="fas fa-trash"></i></button></td>
+                           <td> <form action="" method="POST">
+                                    <input type="hidden" name="id" value="<?=$candidate['id'];?>">
+                                    <button type="submit" name="deletecandidate" class="btn btn-danger"><i class="fas fa-trash"></i></button>
+                                </form></td>
                            <td><button class="btn btn-info"><i class="fas fa-print"></i></button></td>
                         </tr>
                     <?php }?>
@@ -56,6 +59,15 @@ if(isset($_GET['candidates'])){
 
 <?php
  }
+ if(isset($_POST['deletecandidate'])){
+    $id=$_POST['id'];
 
- 
+    $query = "DELETE FROM `admissions` WHERE `id`='$id'";
+    $delete = $conn->query($query);
+
+    if($delete){
+       
+        echo "<script>window.location.href = window.location.href;</script>";
+    }
+ }
 ?>
