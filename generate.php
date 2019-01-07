@@ -159,7 +159,7 @@ if($candidate == ''){
 				</div>
             </div>
             <center><h3 style="font-family:tahoma;"><b>ACKNOWLEDGEMENT</b></h2></center>
-            <p>We appreciate your interest in our school. Please kindly await our review of your application as shortlisted candidates will be informed approprately.</p>
+            <p>Your application is hereby acknowledged and is receiving due attention.The list of candidates shortlisted for further screening will be released online in june 2019 via our website:<span>www.beginnersprideacademy.com.</span><br>Thank you for showing interest in our school. </span>.</p>
           
 			
 			<div class="row">
@@ -167,7 +167,7 @@ if($candidate == ''){
 					<div class="col-xs-8 col-sm-8 col-md-8 text-left">
 						<div class="receipt-right">
 							<p><b>Date :</b> <?php echo date("F j, Y, g:i a")?> </p>
-							<h5 style="color: rgb(140, 140, 140);">Thank you !</h5>
+							
 						</div>
 					</div>
 					<div class="col-xs-4 col-sm-4 col-md-4">
