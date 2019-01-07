@@ -40,12 +40,26 @@ if(isset($_GET['candidates'])){
                            <td><?=$candidate['full_name']?></td>
                            <td><?=$candidate['state']?></td>
                            <td><?=$candidate['tribe']?></td>
-                           <td><span class="printed">printed</span></td>
+
+                           <td>
+                           <?php if($candidate['status'] == 1){
+                                echo "<span style='color:green'><i class='fas fa-check'></i></span>";
+                             }else{
+                                echo "<span style='color:red'><i class='fas fa-times'></i></span>";
+                             }  ?>
+                           
+                           
+                           </td>
                            <td> <form action="" method="POST">
                                     <input type="hidden" name="id" value="<?=$candidate['id'];?>">
                                     <button type="submit" name="deletecandidate" class="btn btn-danger"><i class="fas fa-trash"></i></button>
                                 </form></td>
-                           <td><button class="btn btn-info"><i class="fas fa-print"></i></button></td>
+                           <td>
+                                <form action="" method="POST">
+                                    <input type="hidden" name="sid" value="<?=$candidate['id'];?>">
+                                    <button type="submit" name="checkcandidate" class="btn btn-info"><i class="fas fa-print"></i></button>
+                                </form></td>
+                           </td>
                         </tr>
                     <?php }?>
                     </tbody>
@@ -68,6 +82,19 @@ if(isset($_GET['candidates'])){
     if($delete){
        
         echo "<script>window.location.href = window.location.href;</script>";
+    }
+ }
+
+
+ if(isset($_POST['checkcandidate'])){
+    $sid=$_POST['sid'];
+
+    $query = "UPDATE `admissions` SET `status`= 1 WHERE `id`='$sid'";
+    $update = $conn->query($query);
+
+    if($update){
+       
+        echo "<script>window.location.href ='printcandidate.php?candidate=$sid';</script>";
     }
  }
 ?>
