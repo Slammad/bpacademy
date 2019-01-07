@@ -209,7 +209,7 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
 		</div>";
 		
 		}else{
-			$query = "INSERT INTO `admissions`(`id`, `full_name`, `dob`, `age`, `gender`, `state`, `tribe`, `religion`, `previous_school`, `class_of_admission`, `father_name`, `father_occup`, `father_addr`, `father_phone`, `mother_name`, `mother_occup`, `mother_addr`, `mother_phone`, `health_challenge`, `passport`) VALUES (NULL,'$fullname','$dob','$age','$gender','$state','$tribe','$religion','$pschool','$class','$father','$father_occ','$father_addr','$father_phone','$mother','$mother_occ','$mother_addr','$mother_phone','$health','$dbpath')";
+			$query = "INSERT INTO `admissions`(`id`, `full_name`, `dob`, `age`, `gender`, `state`, `tribe`, `religion`, `previous_school`, `class_of_admission`, `father_name`, `father_occup`, `father_addr`, `father_phone`, `mother_name`, `mother_occup`, `mother_addr`, `mother_phone`, `health_challenge`, `passport`,`status`) VALUES (NULL,'$fullname','$dob','$age','$gender','$state','$tribe','$religion','$pschool','$class','$father','$father_occ','$father_addr','$father_phone','$mother','$mother_occ','$mother_addr','$mother_phone','$health','$dbpath',0)";
 		$run =$conn->query($query);
 		if($run){
 			echo "<script>console.log('Applied Successfully')</script>";
