@@ -145,16 +145,11 @@ if($candidate == ''){
 					<div class="col-xs-8 col-sm-8 col-md-8 text-left">
 						<div class="receipt-right">
 							<h5><?=$candidate?></h5>
-							<p><b>Date of Birth :</b> <?=$dob?></p>
-							<p><b>Age By September :</b><?=$age?></p>
-                            <p><b>Tribe :</b> <?=$tribe?></p>
                             <p><b>State :</b> <?=$state?></p>
 						</div>
 					</div>
 					<div class="col-xs-4 col-sm-4 col-md-4">
-						<div class="receipt-left">
-							<h1>SLIP</h1>
-						</div>
+						
 					</div>
 				</div>
             </div>
@@ -172,7 +167,7 @@ if($candidate == ''){
 					</div>
 					<div class="col-xs-4 col-sm-4 col-md-4">
 						<div class="receipt-left">
-							<h1>Signature</h1>
+							<img src="assets/images/qrcode.png" alt="" style="height:90px;">
 						</div>
 					</div>
 				</div>
