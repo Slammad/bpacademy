@@ -1,0 +1,796 @@
+# Webalizer V2.23-08 Incremental Data - 01/08/2019 00:52:55
+2019 1 8 0 52 55
+3410 1424 105 86 35 58 62513422 739 182 0
+3 3 229 1 8
+578 294 10605351 24 153 23
+200 143 6173797 22 50 21
+1110 254 12649453 39 167 44
+520 173 10486974 20 81 27
+480 215 9600631 26 140 25
+284 162 6155299 14 81 20
+235 180 6770325 26 64 19
+3 3 71592 3 3 3
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+5 4 95352 4
+31 9 322223 9
+8 6 174022 3
+10 10 621581 2
+25 9 277231 7
+241 77 4905884 47
+149 80 3458722 40
+115 82 3380309 36
+223 156 6324870 61
+167 116 4787781 55
+345 111 8538009 52
+429 167 7457037 80
+281 95 4308114 53
+318 106 3383108 69
+215 87 3079992 46
+140 82 3928096 42
+166 31 969115 22
+8 5 399524 2
+19 17 612392 3
+46 8 133891 7
+271 75 1810363 53
+141 53 2160225 29
+43 29 963906 13
+14 9 421675 4
+0
+0
+0
+1424
+0
+0
+0
+0
+0
+459
+0
+2
+0
+0
+1031
+0
+0
+0
+0
+0
+0
+494
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# -urls- 
+/uploads/gallery/thump_1545825493.Array
+0 2 0 25728 0 0
+/admin/assets/assets/libs/perfect-scrollbar/dist/perfect-scrollbar.jquery.min.js
+0 2 0 97266 0 0
+/admin/assets/assets/extra-libs/sparkline/sparkline.js
+0 2 0 86502 0 0
+/uploads/gallery/thump_1545830085.Array
+0 1 0 12304 0 0
+/uploads/gallery/thump_1545825132.Array
+0 1 0 10891 0 0
+/uploads/gallery/thump_1545829785.Array
+0 1 0 10249 0 0
+/admin/dashboard.php
+0 59 0 1315637 3 2
+/assets/fonts/glyphicons-halflings-regular.woff
+0 18 0 209880 0 0
+/assets/images/image.jpg
+1 54 0 1192200 0 0
+/assets/css/bootstrap.min.css
+0 84 0 3109840 0 0
+/admin/dashboard
+0 7 0 144637 0 0
+/uploads/gallery/thump_1545578995.Array
+0 3 0 37890 0 0
+/admin/assets/assets/libs/quill/dist/quill.min.js.map
+0 1 33241952 6613 0 0
+/assets/js/custom.js
+0 90 0 99076 0 0
+/admin/assets/dist/css/icons/material-design-iconic-font/css/materialdesignicons.min.css.map
+0 1 33241440 6613 0 0
+/admin/assets/assets/libs/flot/jquery.flot.crosshair.js
+0 2 0 11190 0 0
+/admin/assets/assets/libs/flot/excanvas.js
+0 2 0 86742 0 0
+/uploads/gallery/thump_1545824979.Array
+0 1 0 11231 0 0
+/admin/assets/assets/libs/flot/jquery.flot.stack.js
+0 2 0 14556 0 0
+/uploads/gallery/thump_1546320746.Array
+0 82 0 242892 0 0
+/admin.php
+0 1 0 6531 1 0
+/admin/assets/assets//libs/jquery/dist/jquery.min.js
+0 6 0 521574 0 0
+/uploads/gallery/thump_1546321135.Array
+0 82 0 273934 0 0
+/admin/assets/dist/js/custom.min.js
+0 2 0 9490 0 0
+/admin/assets/assets/libs/quill/dist/quill.min.js
+0 2 0 430710 0 0
+/assets/images/logo.jpg
+1 103 0 1283776 0 0
+/assets/js/moment.js
+0 58 0 4035310 0 0
+/admin/assets/assets/libs/flot/jquery.flot.time.js
+0 2 0 24400 0 0
+/uploads/gallery/thump_1546321425.Array
+0 82 0 264864 0 0
+/admin/login.php
+0 10 0 65773 1 0
+/assets/fonts/fontawesome-webfont.ttf
+0 437 0 14513543 0 0
+/uploads/gallery/thump_1545826968.Array
+0 2 0 11820 0 0
+/admin/assets/assets/libs/bootstrap/dist/js/bootstrap.min.js
+0 6 0 304092 0 0
+/assets/fonts/glyphicons-halflings-regular.ttf
+0 32 0 442534 0 0
+/contactus.php
+0 12 0 192255 4 1
+/admissions.php
+0 83 0 1120241 11 8
+/singlenews.php
+0 74 0 1073936 14 10
+/admin/
+0 15 0 98293 3 3
+/admin/logout.php
+0 1 0 48 0 0
+/admin/assets/assets/libs/popper.js/dist/umd/popper.min.js
+0 6 0 122052 0 0
+/uploads/gallery/thump_1545823065.Array
+0 1 0 7441 0 0
+/form.php
+0 104 0 1875497 6 20
+/admin/assets/dist/js/waves.js
+0 2 0 8474 0 0
+/administrator/
+0 1 0 6531 0 0
+/uploads/gallery/thump_1546320361.Array
+0 83 0 235332 0 0
+/admin/assets/assets/images/users/1.jpg
+1 2 0 20416 0 0
+/uploads/gallery/thump_1545577722.Array
+0 1 0 9844 0 0
+/admin/printcandidate.php
+0 4 33241072 21752 0 1
+/assets/js/ss-lightbox.js
+0 87 0 705176 0 0
+/admin/assets/assets/libs/bootstrap/dist/js/bootstrap.min.js.map
+0 1 1 6613 0 0
+/admin/assets/dist/css/icons/font-awesome/webfonts/fa-solid-900.woff2
+0 2 0 88008 0 0
+/admin/assets/assets/libs/quill/dist/quill.snow.css
+0 6 0 154128 0 0
+/assets/js/jquery.min.js
+0 89 0 2431569 0 0
+/admin/assets/assets/libs/flot/jquery.flot.js
+0 2 0 252338 0 0
+/news.php
+0 50 0 799229 11 7
+/assets/dist/themes/default/skins/_all-skins.min.css
+0 83 0 1119482 0 0
+/admin/assets/assets/libs/jquery/dist/jquery.min.js
+0 2 0 173858 0 0
+/admin/assets/dist/css/icons/material-design-iconic-font//fonts/materialdesignicons-webfont.woff2
+0 2 0 199472 0 0
+/assets/images/caro.jpg
+1 49 0 8782016 0 0
+/admin/asdsad.jpg
+1 3 33241328 19839 0 0
+/admin/assets/dist/js/pages/chart/chart-page-init.js
+0 2 0 8302 0 0
+/
+0 205 0 4717606 109 48
+/assets/dist/themes/default/ss-main.css
+0 89 0 68760 0 0
+/assets/js/bootstrap.min.js
+0 84 0 1185440 0 0
+/generate.php
+0 35 0 124726 1 3
+/admin/assets/assets/libs/popper.js/dist/umd/popper.min.js.map
+0 1 0 6613 0 0
+/uploads/gallery/thump_1545824493.Array
+0 1 0 0 0 0
+/uploads/gallery/thump_1545822241.Array
+0 1 0 12630 0 0
+/admin/assets/dist/js/sidebarmenu.js
+0 2 0 4432 0 0
+/admin/assets/assets/libs/flot.tooltip/js/jquery.flot.tooltip.min.js
+0 2 0 15644 0 0
+/admin/assets/assets/libs/flot/jquery.flot.pie.js
+0 2 0 49258 0 0
+/admin/assets/dist/css/icons/material-design-iconic-font/css/materialdesignicons.min.css
+0 6 0 465402 0 0
+/uploads/passports/a1c9813ac3319c1429900695769cb681.png
+1 1 33242096 25175 0 0
+/admin/assets/dist/css/icons/font-awesome/css/fontawesome-all.css
+0 6 0 293274 0 0
+/fees.php
+0 30 0 493066 7 4
+/assets/fonts/fontawesome-webfont.woff
+0 63 0 1183869 0 0
+/admin/assets/dist/css/style.min.css
+0 6 0 1583712 0 0
+/uploads/gallery/thump_1545578590.Array
+0 1 0 10886 0 0
+/events.php
+0 15 0 201660 3 0
+/assets/js/jssor.slider-27.5.0.min.js
+0 87 0 1454711 0 0
+/admin/assets/dist/css/icons/themify-icons/themify-icons.css
+0 6 0 105024 0 0
+/assets/css/style.css
+0 82 0 890625 0 0
+/gallery.php
+0 16 0 215643 5 4
+/admin/assets/dist/css/icons/themify-icons/fonts/themify.woff
+0 2 0 112216 0 0
+/assets/css/font-awesome.min.css
+0 89 0 533400 0 0
+/uploads/gallery/thump_1546321619.Array
+0 75 0 199056 0 0
+# End Of Table - urls
+# -sites- (monthly)
+crawl-66-249-66-86.googlebot.com
+0 2 1 12840 0 0
+-
+aip-140.trustwave.com
+0 10 10 439908 0 0
+-
+google-proxy-66-249-93-204.google.com
+0 6 0 210 0 0
+-
+197.210.28.171
+0 28 27 1183536 1 1546602782
+/gallery.php
+msnbot-157-55-39-104.search.msn.com
+0 2 2 123706 0 0
+-
+google-proxy-66-249-83-86.google.com
+0 16 14 737209 2 1546769161
+/singlenews.php
+105.112.28.242
+0 15 6 117173 1 1546702948
+/singlenews.php
+103.87.58.209
+0 6 6 111224 2 1546602339
+/contactus.php
+65.52.57.86
+0 1 1 23864 1 1546862353
+/
+174.138.56.223
+0 1 1 23552 1 1546505836
+/
+planetlab5.net.in.tum.de
+0 1 1 0 1 1546484020
+/
+msnbot-207-46-13-67.search.msn.com
+0 1 1 23643 1 1546590215
+/
+141-8-142-65.spider.yandex.com
+0 6 6 295873 0 0
+-
+google-proxy-66-249-93-206.google.com
+0 5 1 23852 1 1546548974
+/
+researchscan21.comsys.rwth-aachen.de
+0 1 1 23706 1 1546683171
+/
+crawl-66-249-66-159.googlebot.com
+0 2 1 40326 0 0
+-
+69.171.251.6
+0 1 1 40118 0 0
+-
+crawl-66-249-69-206.googlebot.com
+0 2 2 47104 2 1546480346
+/
+5-255-250-7.spider.yandex.com
+0 26 12 250948 12 1546801490
+/contactus.php
+93-158-161-23.spider.yandex.com
+0 2 2 47416 2 1546908772
+/
+ec2-54-200-240-43.us-west-2.compute.amazonaws.com
+0 1 1 23552 1 1546489333
+/
+208-87-233-140.mailcontrol.com
+0 7 7 373264 1 1546852268
+/
+crawl-66-249-66-84.googlebot.com
+0 6 5 56659 0 0
+-
+crawl-66-249-69-183.googlebot.com
+0 12 8 419052 1 1546461080
+/singlenews.php
+www.9mobile.com.ng
+0 1721 1183 35440801 28 1546866109
+/singlenews.php
+103.59.156.16
+0 1 1 23552 1 1546505333
+/
+60.191.38.77
+0 4 4 95136 3 1546882973
+/
+66.220.149.21
+0 1 1 40118 0 0
+-
+ec2-34-219-36-191.us-west-2.compute.amazonaws.com
+0 1 1 23864 1 1546856227
+/
+173.252.127.20
+0 4 4 139546 0 0
+-
+173.252.127.21
+0 2 2 41332 1 1546511770
+/
+ns3126948.ip-94-23-2.eu
+0 1 1 23864 1 1546908005
+/
+msnbot-40-77-167-0.search.msn.com
+0 2 2 171867 0 0
+-
+msnbot-157-55-39-1.search.msn.com
+0 1 0 208 0 0
+-
+uptimebot.org
+0 4 4 0 3 1546642084
+/
+google-proxy-66-249-83-84.google.com
+0 20 18 1079003 2 1546769160
+/gallery.php
+105.112.27.178
+0 2 2 38344 1 1546704968
+/form.php
+ec2-54-186-185-60.us-west-2.compute.amazonaws.com
+0 5 5 346204 0 0
+-
+105.112.75.56
+0 1 1 23642 1 1546601857
+/
+pool.luga.net.ua
+0 3 2 13272 1 1546502897
+-
+google-proxy-66-249-83-85.google.com
+0 19 18 1124837 0 0
+-
+google-proxy-66-249-83-223.google.com
+0 1 1 23864 1 1546769161
+/
+google-proxy-66-249-93-44.google.com
+0 9 7 166099 4 1546879849
+/
+173.252.87.14
+0 1 0 208 0 0
+-
+google-proxy-66-249-93-53.google.com
+0 9 0 0 0 0
+-
+173.252.127.24
+0 2 2 12192 0 0
+-
+crawl-66-249-69-197.googlebot.com
+0 1 0 225 0 0
+-
+google-proxy-66-249-93-89.google.com
+0 7 2 29439 1 1546549060
+/news.php
+ec2-54-81-134-228.compute-1.amazonaws.com
+0 4 4 95456 1 1546721042
+/
+static.vnpt.vn
+0 7 2 48411 1 1546556477
+/
+aip-138.trustwave.com
+0 23 23 1162572 1 1546852268
+/
+crawl-66-249-64-78.googlebot.com
+0 3 1 24123 1 1546678898
+/
+crawl-66-249-69-198.googlebot.com
+0 1 0 208 0 0
+-
+crawl-66-249-69-185.googlebot.com
+0 9 7 104887 3 1546887615
+/contactus.php
+google-proxy-66-249-93-26.google.com
+0 346 62 1802366 17 1546802428
+/
+173.252.127.11
+0 4 4 417522 0 0
+-
+google-proxy-66-249-93-55.google.com
+0 10 0 0 0 0
+-
+105.112.26.22
+0 47 42 1856508 1 1546331296
+/events.php
+197.210.28.95
+0 13 13 520289 1 1546626409
+/gallery.php
+google-proxy-66-249-93-85.google.com
+0 5 0 0 0 0
+-
+crawl-66-249-64-55.googlebot.com
+0 6 2 33256 1 1546673471
+/
+msnbot-207-46-13-43.search.msn.com
+0 2 2 123706 0 0
+-
+crawl-66-249-64-57.googlebot.com
+0 8 5 78513 2 1546682510
+/
+crawl-66-249-69-204.googlebot.com
+0 1 0 208 0 0
+-
+176.15.238.165
+0 10 10 621581 1 1546659885
+/admin/login.php
+host-250-37.213.162.cloudsigma.net
+0 1 1 22894 1 1546316454
+/
+173.252.127.23
+0 3 2 268492 0 0
+-
+randall.spb.ru
+0 1 1 23864 1 1546898233
+/
+msnbot-157-55-39-206.search.msn.com
+0 1 1 50631 0 0
+-
+69.171.251.30
+0 2 2 29040 1 1546342708
+/singlenews.php
+google-proxy-66-249-93-46.google.com
+0 5 4 94911 3 1546769011
+/
+n10-02-06.opera-mini.net
+0 30 27 1178050 1 1546351878
+/fees.php
+crawl-66-249-66-85.googlebot.com
+0 4 3 48123 1 1546356047
+/singlenews.php
+69.171.251.27
+0 1 1 14520 1 1546342708
+/singlenews.php
+msnbot-40-77-167-48.search.msn.com
+0 1 1 50631 0 0
+-
+ec2-52-32-20-224.us-west-2.compute.amazonaws.com
+0 1 1 3196 0 0
+-
+crawl-66-249-69-173.googlebot.com
+0 1 0 225 0 0
+-
+msnbot-157-55-39-207.search.msn.com
+0 2 2 171867 0 0
+-
+n27-04-04.opera-mini.net
+0 23 22 894694 1 1546461553
+/singlenews.php
+google-proxy-66-249-93-205.google.com
+0 3 0 0 0 0
+-
+ec2-18-236-221-49.us-west-2.compute.amazonaws.com
+0 1 1 23864 1 1546856054
+/
+crawl-66-249-64-80.googlebot.com
+0 2 1 23915 1 1546684319
+/
+crawl-66-249-69-208.googlebot.com
+0 4 2 64399 1 1546898848
+/
+google-proxy-66-249-93-28.google.com
+0 349 63 2092224 16 1546879927
+/singlenews.php
+google-proxy-66-249-93-57.google.com
+0 10 0 0 0 0
+-
+crawl-66-249-69-177.googlebot.com
+0 1 0 208 0 0
+-
+173.252.127.4
+0 5 4 143046 0 0
+-
+google-proxy-66-249-93-27.google.com
+0 342 79 2101509 21 1546879906
+/news.php
+173.252.127.18
+0 3 3 74765 0 0
+-
+google-proxy-66-249-93-87.google.com
+0 12 1 16708 1 1546548989
+/form.php
+n14-10-04.opera-mini.net
+0 26 24 1123519 1 1546601819
+/
+ec2-52-35-55-54.us-west-2.compute.amazonaws.com
+0 1 1 23704 1 1546613621
+/
+95-108-213-23.spider.yandex.com
+0 8 8 356534 2 1546908775
+/
+66.220.149.13
+0 1 1 40118 0 0
+-
+93-158-161-157.spider.yandex.com
+0 7 4 80687 4 1546900517
+/fees.php
+host-46-254-222-166.itkm.ru
+0 21 20 1052566 1 1546703700
+/
+93-80-36-247.broadband.corbina.ru
+0 11 11 661699 1 1546413819
+/admin/login.php
+google-proxy-66-249-83-194.google.com
+0 1 1 23552 1 1546521844
+/
+google-proxy-66-249-93-48.google.com
+0 6 2 48252 2 1546704824
+/
+crawl-66-249-64-53.googlebot.com
+0 1 0 210 0 0
+-
+37-145-186-209.broadband.corbina.ru
+0 10 10 618593 1 1546378316
+/admin/login.php
+pppoe85.net46-233-255.se1.omkc.ru
+0 10 10 638192 1 1546413817
+/admin/login.php
+crawl-66-249-69-181.googlebot.com
+0 15 11 196788 3 1546468074
+/singlenews.php
+researchscan20.comsys.rwth-aachen.de
+0 2 2 47410 2 1546675136
+/
+ec2-34-221-169-242.us-west-2.compute.amazonaws.com
+0 1 1 23864 1 1546905160
+/
+# End Of Table - sites (monthly)
+# -sites- (daily)
+93-158-161-23.spider.yandex.com
+0 1 1 23864 1 1546908772
+/
+ns3126948.ip-94-23-2.eu
+0 1 1 23864 1 1546908005
+/
+95-108-213-23.spider.yandex.com
+0 1 1 23864 1 1546908775
+/
+# End Of Table - sites (daily)
+# -referrers- 
+http://beginnersprideacademy.com/gallery.php
+0 29
+http://localhost/bpacademy/
+0 26
+http://beginnersprideacademy.com/admin/dashboard
+0 49
+http://www.beginnersprideacademy.com/admin/dashboard.php
+0 3
+http://beginnersprideacademy.com/fees.php
+0 70
+http://beginnersprideacademy.com
+0 2
+http://beginnersprideacademy.com/generate.php
+0 2
+http://beginnersprideacademy.com/admin/logout.php
+0 1
+android-app://com.google.android.googlequicksearchbox
+0 2
+http://beginnersprideacademy.com/form.php
+0 238
+http://beginnersprideacademy.com/admin/assets/dist/css/icons/font-awesome/css/fontawesome-all.css
+0 2
+https://www.facebook.com/
+0 1
+https://yandex.ru/clck/jsredir
+0 5
+- (Direct Request)
+0 417
+http://beginnersprideacademy.com/assets/css/font-awesome.min.css
+0 491
+http://www.beginnersprideacademy.com
+1 32
+http://beginnersprideacademy.com/news.php
+0 120
+http://beginnersprideacademy.com/admin/printcandidate.php
+0 6
+http://localhost/bpacademy/admissions.php
+0 1
+http://www.bing.com
+0 1
+http://beginnersprideacademy.com/admin/assets/dist/css/icons/themify-icons/themify-icons.css
+0 2
+http://beginnersprideacademy.com/admin/login.php
+0 6
+http://beginnersprideacademy.com/contactus.php
+0 7
+http://beginnersprideacademy.com/admin/assets/dist/css/icons/material-design-iconic-font/css/materialdesignicons.min.css
+0 2
+http://beginnersprideacademy.com/assets/css/bootstrap.min.css
+0 113
+http://localhost/bpacademy/form.php
+0 46
+http://beginnersprideacademy.com/singlenews.php
+0 116
+http://www.beginnersprideacademy.com/
+0 309
+http://beginnersprideacademy.com/admin/
+0 28
+http://beginnersprideacademy.com/admissions.php
+0 246
+http://beginnersprideacademy.com/
+0 728
+http://www.beginnersprideacademy.com/admin/login.php
+0 34
+http://beginnersprideacademy.com/events.php
+0 26
+http://beginnersprideacademy.com/admin/dashboard.php
+0 64
+http://beginnersprideacademy.com/index.php
+0 185
+# End Of Table - referrers
+# -agents- 
+Mozilla/5.0 (Linux; Android 8.1.0; Infinix X606C Build/O11019) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.126 Mo
+0 330
+Mozilla/5.0 (Windows NT 6.1; WOW64; rv:46.0) Gecko/20100101 Firefox/46.0
+0 1
+Mozilla/5.0 (compatible, MSIE 11, Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko
+0 1
+WhatsApp/2.18.293 A
+0 1
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.75.14 (KHTML, like Gecko) Version/7.0.3 Safari/7046A194A
+0 1
+Mozilla/5.0 (compatible; YandexImages/3.0; +http://yandex.com/bots)
+0 1
+Mozilla/5.0 (compatible; NetcraftSurveyAgent/1.0; +info@netcraft.com)
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+0 1
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+0 1547
+Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.11 (KHTML like Gecko) Chrome/23.0.1271.95 Safari/537.11
+0 1
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Safari/537.36
+0 8
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+0 7
+Mozilla/5.0 (Linux; Android 7.0; Infinix X572 Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile
+0 29
+Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+0 27
+Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)
+0 2
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+0 23
+Opera/12.0(Windows NT 5.1;U;en)Presto/22.9.168 Version/12.00
+0 1
+Mozilla/5.0 (X11; Ubuntu; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36
+0 1
+Opera/9.80 (Android; Opera Mini/15.0.2125/127.81; U; en) Presto/2.12.423 Version/12.16
+0 53
+PHP-Curl-Class/8.5.0 (+https://github.com/php-curl-class/php-curl-class) PHP/7.1.25 curl/7.61.1
+0 1
+Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Googlebot/2.1; +http://www.google.com/bot.html) Safari/537.36
+0 4
+Opera/9.80 (Windows NT 6.1; U; ru) Presto/2.8.131 Version/11.10
+0 3
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+0 4
+Mozilla/5.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .
+0 33
+Googlebot-Image/1.0
+0 32
+Mozilla/5.0 zgrab/0.x (compatible; Researchscan/t12sns; +http://researchscan.comsys.rwth-aachen.de)
+0 1
+Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)
+0 2
+Mozilla/5.0 zgrab/0.x (compatible; Researchscan/t13rl; +http://researchscan.comsys.rwth-aachen.de)
+0 1
+Mozilla/5.0 (Linux; Android 7.0; TECNO K7 Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Saf
+0 792
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:47.0) Gecko/20100101 Firefox/47.0
+0 4
+facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+0 7
+Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0
+0 11
+Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1) ; Inf
+0 1
+Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.85 Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 OPR/57.0.
+0 24
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36
+0 1
+Mozilla/5.0 zgrab/0.x (compatible; Researchscan/t12ca; +http://researchscan.comsys.rwth-aachen.de)
+0 1
+Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.96 Mobile S
+0 18
+Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)
+0 34
+Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0; Touch; MALNJS)
+0 10
+Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0; Touch; MALNJS)
+0 10
+Mozilla/5.0 (iPhone; CPU iPhone OS 8_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12B411 Safar
+0 14
+Opera/9.80 (Android; Opera Mini/7.6.40077/127.81; U; en) Presto/2.12.423 Version/12.16
+0 26
+Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36
+0 21
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.75 Safari/537.36 Google Favicon
+0 34
+Mozilla/5.0 (Windows NT 6.1; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0
+0 79
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_2_1 like Mac OS X) AppleWebKit/604.4.7 (KHTML, like Gecko) Version/11.0 Mobile/15C153 S
+0 41
+Uptimebot.org - Free website monitoring
+0 4
+Mozilla/5.0 (Windows NT 6.1; rv:30.0) Gecko/20100101 Firefox/30.0
+0 66
+Mozilla/5.0 (Windows NT 6.3) AppleWebKit/534.05.52 (KHTML, like Gecko) Chrome/57.4.9430.4168 Safari/534.35
+0 1
+Mozilla/5.0 (Macintosh; PPC Mac OS X 10.11; rv:54.0) Gecko/20100101 Firefox/54.0
+0 1
+Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36
+0 1
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727; .NET CLR 1.1.4322)
+0 6
+Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 YaBrowser/18.10.2.163 Yowser
+0 10
+Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/533.4 (KHTML, like Gecko) Chrome/5.0.375.53 Safari/533.4
+0 7
+Mozilla/5.0 (Linux; Android 4.2.1; en-us; Nexus 5 Build/JOP40D) AppleWebKit/535.19 (KHTML, like Gecko; googleweblight) Chrome
+0 57
+Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)
+0 10
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames
