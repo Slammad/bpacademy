@@ -1,7 +1,7 @@
 <?php
     $localhost = "localhost";
-    $user = "slammad";
-    $password = "Slammad42";
+    $user = "root";
+    $password = "";
     $db = "bpacademy";
 
 
