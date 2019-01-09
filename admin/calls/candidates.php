@@ -36,7 +36,7 @@ if(isset($_GET['candidates'])){
                     <?php while($candidate = mysqli_fetch_assoc($candidates)){?>
                         <tr>
 
-                           <td><?=$candidate['id']?></td>
+                           <td><i class="mdi mdi-account-card-details"></i></td>
                            <td><?=$candidate['full_name']?></td>
                            <td><?=$candidate['state']?></td>
                            <td><?=$candidate['tribe']?></td>
