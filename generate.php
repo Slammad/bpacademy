@@ -7,7 +7,7 @@ $settings = mysqli_fetch_assoc($runsettings);
 
 $candidate = $_GET['candidate'];
 $dob = $_GET['dob'];
-$state = $_GET['state'];
+$address = $_GET['address'];
 $tribe = $_GET['tribe'];
 $age = $_GET['age'];
 
@@ -145,7 +145,7 @@ if($candidate == ''){
 					<div class="col-xs-8 col-sm-8 col-md-8 text-left">
 						<div class="receipt-right">
 							<h5><?=$candidate?></h5>
-                            <p><b>State :</b> <?=$state?></p>
+                            <p><b>Address :</b> <?=$address?></p>
 						</div>
 					</div>
 					<div class="col-xs-4 col-sm-4 col-md-4">
