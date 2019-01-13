@@ -296,7 +296,7 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
 							<span class="error"><?= $gender_error ?></span>
 						</div>
 						<div class="col-sm-4 form-group">
-							<label>State</label>
+							<label>State of Origin</label>
 							<input type="text" placeholder="State" name="state" value="<?=$state?>" class="form-control">
 							<span class="error"><?=$state_error ?></span>
 						</div>
@@ -340,7 +340,7 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
 					</div>
 
 					<div class="form-group">
-						<label>Previous School</label>
+						<label>Previous School Attended</label>
 						<textarea placeholder="Previous School.." rows="3" name="pschool" value="<?=$pschool?>" class="form-control"></textarea>
 						<span class="error"><?= $pschool_error ?></span>
 					</div>
