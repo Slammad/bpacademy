@@ -341,7 +341,7 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
 
 					<div class="form-group">
 						<label>Previous School Attended</label>
-						<textarea placeholder="Previous School.." rows="3" name="pschool" value="<?=$pschool?>" class="form-control"></textarea>
+						<textarea placeholder="Previous School Attended.." rows="3" name="pschool" value="<?=$pschool?>" class="form-control"></textarea>
 						<span class="error"><?= $pschool_error ?></span>
 					</div>
 					<div class="row">
