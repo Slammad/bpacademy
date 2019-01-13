@@ -248,18 +248,18 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
 			</div>
 				<div class="col-sm-12">
 					<div class="row">
-						<div class="col-sm-2 form-group">
+						<div class="col-sm-3 form-group">
 							<label>Surname</label>
 							<input type="text" placeholder="Enter Full Name Here.." name="fullname" value="<?=$fullname?>" class="form-control">
 							<span class="error"><?= $fullname_error ?></span>
 						</div>
-						<div class="col-sm-2 form-group">
+						<div class="col-sm-3 form-group">
 							<label>First Name</label>
 							<input type="text" placeholder="Enter Full Name Here.." name="fullname" value="<?=$fullname?>" class="form-control">
 							<span class="error"><?= $fullname_error ?></span>
 						</div>
 
-						<div class="col-sm-2 form-group">
+						<div class="col-sm-3 form-group">
 							<label>Other Name</label>
 							<input type="text" placeholder="Enter Full Name Here.." name="fullname" value="<?=$fullname?>" class="form-control">
 							<span class="error"><?= $fullname_error ?></span>
