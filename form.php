@@ -320,7 +320,7 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
 						</div>
 
 						<div class="col-sm-4 form-group">
-						<label>Religion</label>
+						<label>Class of Admission</label>
 							<select class="form-control" name="class">
 								<option value="">Select Class of Admission</option>
 								<option value="Islam">Pre Nursery</option>
