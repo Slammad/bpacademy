@@ -318,11 +318,25 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
 							</select>
 							<span class="error"><?= $religion_error ?></span>
 						</div>
+
 						<div class="col-sm-4 form-group">
-							<label>Class of Admission</label>
-							<input type="text" placeholder="Class of Admission.." value="<?=$class?>" name="class" class="form-control">
+						<label>Religion</label>
+							<select class="form-control" name="class">
+								<option value="">Select Class of Admission</option>
+								<option value="Islam">Pre Nursery</option>
+								<option value="Islam">Nursery One</option>
+								<option value="Islam">Nursery Two</option>
+								<option value="Islam">Primary One</option>
+								<option value="Islam">Primary Two</option>
+								<option value="Islam">Primary Three</option>
+								<option value="Islam">Primary Four</option>
+								<option value="Islam">Primary Five</option>
+								<option value="Islam">Primary Six</option>
+							</select>
 							<span class="error"><?= $class_error ?></span>
 						</div>
+
+					
 					</div>
 
 					<div class="form-group">
