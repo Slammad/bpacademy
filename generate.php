@@ -145,7 +145,7 @@ if($candidate == ''){
 					<div class="col-xs-8 col-sm-8 col-md-8 text-left">
 						<div class="receipt-right">
 							<h5><?=$candidate?></h5>
-                            <p><b>Address :</b> <?=$address?></p>
+                            <p><b></b> <?=$address?></p>
 						</div>
 					</div>
 					<div class="col-xs-4 col-sm-4 col-md-4">
@@ -161,7 +161,7 @@ if($candidate == ''){
 				<div class="receipt-header receipt-header-mid receipt-footer">
 					<div class="col-xs-8 col-sm-8 col-md-8 text-left">
 						<div class="receipt-right">
-							<p><b>Date :</b> <?php echo date("F j, Y, g:i a")?> </p>
+							<p><b>Date :</b> <?php echo date("F j, Y, g:i a")?> </p><br><br>
 							<p><b>Management</b></p>
 						</div>
 					</div>
