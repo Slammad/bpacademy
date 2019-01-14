@@ -210,7 +210,7 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
 
 	if($firstname_error =='' && $surname_error==''&& $dob_error=='' && $age_error=='' && $gender_error=='' &&$state_error==''&&$religion_error==''&& $class_error==''&&$father_error==''&&$father_occ_error==''&&$father_addr_error==''&&$father_phone_error==''&&$mother_error==''&&$mother_occ_error==''&&$mother_addr_error==''&&$mother_phone_error==''){
 
-		$check ="SELECT * FROM `admissions` WHERE `full_name`='$fullname' AND `father_phone`='$father_phone' AND `dob`='$dob' AND `state`='$state' AND `tribe`='$tribe'";
+		$check ="SELECT * FROM `admissions` WHERE `surname`='$surname' AND `firstname`='$firstname' AND `father_phone`='$father_phone' AND `dob`='$dob' AND `state`='$state' AND `tribe`='$tribe'";
 		$row_cnt =mysqli_num_rows($conn->query($check));
 		if($row_cnt > 0){
 			echo "<br><br><div class='container'>
@@ -266,18 +266,18 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
 					<div class="row">
 						<div class="col-sm-3 form-group">
 							<label>Surname</label>
-							<input type="text" placeholder="Enter Surname.." name="fullname" value="<?=$surname?>" class="form-control">
+							<input type="text" placeholder="Enter Surname.." name="surname" value="<?=$surname?>" class="form-control">
 							<span class="error"><?= $fullname_error ?></span>
 						</div>
 						<div class="col-sm-3 form-group">
 							<label>Firstname</label>
-							<input type="text" placeholder="Enter Firstname Here.." name="fullname" value="<?=$firstname?>" class="form-control">
+							<input type="text" placeholder="Enter Firstname Here.." name="firstname" value="<?=$firstname?>" class="form-control">
 							<span class="error"><?= $fullname_error ?></span>
 						</div>
 
 						<div class="col-sm-3 form-group">
 							<label>Othername</label>
-							<input type="text" placeholder="Enter Othername Here.." name="fullname" value="<?=$othername?>" class="form-control">
+							<input type="text" placeholder="Enter Othername Here.." name="othername" value="<?=$othername?>" class="form-control">
 							<span class="error"><?= $fullname_error ?></span>
 						</div>
 						<div class="col-sm-3 form-group">
