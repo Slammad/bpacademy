@@ -266,18 +266,18 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
 					<div class="row">
 						<div class="col-sm-3 form-group">
 							<label>Surname</label>
-							<input type="text" placeholder="Enter Surname.." name="fullname" value="<?=$fullname?>" class="form-control">
+							<input type="text" placeholder="Enter Surname.." name="fullname" value="<?=$surname?>" class="form-control">
 							<span class="error"><?= $fullname_error ?></span>
 						</div>
 						<div class="col-sm-3 form-group">
 							<label>Firstname</label>
-							<input type="text" placeholder="Enter Firstname Here.." name="fullname" value="<?=$fullname?>" class="form-control">
+							<input type="text" placeholder="Enter Firstname Here.." name="fullname" value="<?=$firstname?>" class="form-control">
 							<span class="error"><?= $fullname_error ?></span>
 						</div>
 
 						<div class="col-sm-3 form-group">
 							<label>Othername</label>
-							<input type="text" placeholder="Enter Othername Here.." name="fullname" value="<?=$fullname?>" class="form-control">
+							<input type="text" placeholder="Enter Othername Here.." name="fullname" value="<?=$othername?>" class="form-control">
 							<span class="error"><?= $fullname_error ?></span>
 						</div>
 						<div class="col-sm-3 form-group">
@@ -324,7 +324,7 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
 						</div>
 						<div class="col-sm-4 form-group">
 							<label>State of Origin</label>
-							<input type="text" placeholder="State" name="state" value="<?=$state?>" class="form-control">
+							<input type="text" placeholder="State of Origin" name="state" value="<?=$state?>" class="form-control">
 							<span class="error"><?=$state_error ?></span>
 						</div>
 					</div>
