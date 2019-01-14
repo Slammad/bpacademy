@@ -11,8 +11,8 @@
 
 
 <?php include 'partials/top.inc.php';
-$fullname_error=$dob_error=$age_error=$gender_error=$state_error=$tribe_error=$religion_error=$class_error=$pschool_error=$father_error=$father_occ_error=$father_addr_error=$father_phone_error=$mother_error=$mother_occ_error=$mother_addr_error=$mother_phone_error=$passport_error="";
-$fullname=$dob=$age=$state=$tribe=$religion=$class=$pschool=$father=$father_occ=$father_addr=$father_phone=$mother=$mother_occ=$mother_addr=$mother_phone=$health=$dbpath="";
+$surname_error=$firstname_eror=$dob_error=$age_error=$gender_error=$state_error=$tribe_error=$religion_error=$class_error=$pschool_error=$father_error=$father_occ_error=$father_addr_error=$father_phone_error=$mother_error=$mother_occ_error=$mother_addr_error=$mother_phone_error=$passport_error="";
+$surname=$firstname=$othername=$dob=$age=$state=$tribe=$religion=$class=$pschool=$father=$father_occ=$father_addr=$father_phone=$mother=$mother_occ=$mother_addr=$mother_phone=$health=$dbpath="";
 
 function test_input($data) {
 	$data = trim($data);
@@ -48,14 +48,29 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
 
 	}
 		
-	if(empty($_POST['fullname'])){
-		 $fullname_error="Name is Required";
+	if(empty($_POST['surname'])){
+		 $surname_error="Field is Required";
 	}else{
-		$fullname =test_input($_POST['fullname']);
-		if(!preg_match("/^[a-zA-Z ]*$/",$fullname)){
-			$fullname_error ="Please check name field";
+		$surname =test_input($_POST['surname']);
+		if(!preg_match("/^[a-zA-Z ]*$/",$surname)){
+			$surname_error ="Not a valid name";
 		}
 	}
+
+	if(empty($_POST['firstname'])){
+		$firstname_error="Name is Required";
+   }else{
+	   $firstname =test_input($_POST['firstname']);
+	   if(!preg_match("/^[a-zA-Z ]*$/",$firstname)){
+		   $firstname_error ="Not a valid name";
+	   }
+   }
+
+   if(empty($_POST['othername'])){
+	$othername =$_POST['othername'];
+}else{
+   $othername =$_POST['othername'];
+}
 
 
 	if(empty($_POST['dob'])){
@@ -109,7 +124,7 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
 		$class_error="Class is Required";
     }else{
 	   $class =test_input($_POST['class']);
-	   if(!preg_match("/^[a-zA-Z ]*$/",$fullname)){
+	   if(!preg_match("/^[a-zA-Z ]*$/",$class)){
 		   $class_error ="Invalid Class";
 	   }
 	}
@@ -193,7 +208,7 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
 	}
  
 
-	if($fullname_error =='' && $dob_error=='' && $age_error=='' && $gender_error=='' &&$state_error==''&&$religion_error==''&& $class_error==''&&$father_error==''&&$father_occ_error==''&&$father_addr_error==''&&$father_phone_error==''&&$mother_error==''&&$mother_occ_error==''&&$mother_addr_error==''&&$mother_phone_error==''){
+	if($firstname_error =='' && $surname_error==''&& $dob_error=='' && $age_error=='' && $gender_error=='' &&$state_error==''&&$religion_error==''&& $class_error==''&&$father_error==''&&$father_occ_error==''&&$father_addr_error==''&&$father_phone_error==''&&$mother_error==''&&$mother_occ_error==''&&$mother_addr_error==''&&$mother_phone_error==''){
 
 		$check ="SELECT * FROM `admissions` WHERE `full_name`='$fullname' AND `father_phone`='$father_phone' AND `dob`='$dob' AND `state`='$state' AND `tribe`='$tribe'";
 		$row_cnt =mysqli_num_rows($conn->query($check));
@@ -209,9 +224,10 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
 		</div>";
 		
 		}else{
-			$query = "INSERT INTO `admissions`(`id`, `full_name`, `dob`, `age`, `gender`, `state`, `tribe`, `religion`, `previous_school`, `class_of_admission`, `father_name`, `father_occup`, `father_addr`, `father_phone`, `mother_name`, `mother_occup`, `mother_addr`, `mother_phone`, `health_challenge`, `passport`,`status`) VALUES (NULL,'$fullname','$dob','$age','$gender','$state','$tribe','$religion','$pschool','$class','$father','$father_occ','$father_addr','$father_phone','$mother','$mother_occ','$mother_addr','$mother_phone','$health','$dbpath',0)";
+			$query = "INSERT INTO `admissions`(`id`, `surname`,`firstname`,`othername`, `dob`, `age`, `gender`, `state`, `tribe`, `religion`, `previous_school`, `class_of_admission`, `father_name`, `father_occup`, `father_addr`, `father_phone`, `mother_name`, `mother_occup`, `mother_addr`, `mother_phone`, `health_challenge`, `passport`,`status`) VALUES (NULL,'$surname','$firstname','$othername','$dob','$age','$gender','$state','$tribe','$religion','$pschool','$class','$father','$father_occ','$father_addr','$father_phone','$mother','$mother_occ','$mother_addr','$mother_phone','$health','$dbpath',0)";
 		$run =$conn->query($query);
 		if($run){
+			$fullname = $surname.' '.$firstname.' '.$othername; 
 			echo "<script>console.log('Applied Successfully')</script>";
 			echo "<script>window.location.href ='generate.php?candidate=$fullname&dob=$dob&address=$father_addr&tribe=$tribe&age=$age';</script>";
 		}

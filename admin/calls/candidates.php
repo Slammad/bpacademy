@@ -33,11 +33,13 @@ if(isset($_GET['candidates'])){
                         </tr>
                     </thead>
                     <tbody class="customtable">
-                    <?php while($candidate = mysqli_fetch_assoc($candidates)){?>
+                    <?php while($candidate = mysqli_fetch_assoc($candidates)){
+                        $fullname = $candidate['surname'].' '.$candidate['firstname'].' '.$candidate['othername'];
+                        ?>
                         <tr>
 
                            <td><i class="mdi mdi-account-card-details"></i></td>
-                           <td><?=$candidate['full_name']?></td>
+                           <td><?=$fullname?></td>
                            <td><?=$candidate['state']?></td>
                            <td><?=$candidate['tribe']?></td>
 
