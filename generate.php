@@ -135,6 +135,7 @@ if($candidate == ''){
 							<p><?=$settings['school_phone']?>,<?=$settings['tell2']?> <i class="fas fa-phone"></i></p>
 							<p><b><?=$settings['school_mail']?><i class="fas fa-envelope"></i></b></p>
 							<p><?=$settings['school_address']?></p>
+							<p><b>Date :</b> <?php echo date("F j, Y, g:i a")?> </p><br><br>
 						</div>
 					</div>
 				</div>
@@ -161,7 +162,7 @@ if($candidate == ''){
 				<div class="receipt-header receipt-header-mid receipt-footer">
 					<div class="col-xs-8 col-sm-8 col-md-8 text-left">
 						<div class="receipt-right">
-							<p><b>Date :</b> <?php echo date("F j, Y, g:i a")?> </p><br><br>
+							
 							<p><b>Management</b></p>
 						</div>
 					</div>
