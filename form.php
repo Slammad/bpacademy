@@ -117,7 +117,7 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
 	if(empty($_POST['religion'])){
 		$religion_error="Religion Required";
     }else{
-	   $religion =$_POST['gender'];
+	   $religion =$_POST['religion'];
 	}
 
 	if(empty($_POST['class'])){
