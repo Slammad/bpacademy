@@ -135,7 +135,7 @@ if($candidate == ''){
 							<p><?=$settings['school_phone']?>,<?=$settings['tell2']?> <i class="fas fa-phone"></i></p>
 							<p><b><?=$settings['school_mail']?><i class="fas fa-envelope"></i></b></p>
 							<p><?=$settings['school_address']?></p>
-							<p><b>Date :</b> <?php echo date("F j, Y, g:i a")?> </p><br><br>
+							<p> <?php echo date("F j, Y, g:i a")?> </p><br><br>
 						</div>
 					</div>
 				</div>
